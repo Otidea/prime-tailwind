@@ -1,0 +1,7 @@
+.degraderBar{
+    background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
+}
+
+.splide__slide{
+    height: auto !important;
+}
