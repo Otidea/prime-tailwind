@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/output.css" rel="stylesheet">
     <link href="./css/home.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link href="./assets/splide-4.1.3/dist/css/splide.min.css" rel="stylesheet">
 </head>
 <body>
-<nav>
-    <div class="fixed top-0 h-3 w-full degraderBar z-30"></div>
+<nav class="z-[90] relative">
+    <div class="fixed top-0 h-3 w-full degraderBar"></div>
     <div class="fixed top-0 left-0 h-40 w-40 bg-white z-20 rounded-br-3xl overflow-hidden">
         <a href="https://otidea.com">
             <img src="./img/7.jpg" class="h-full w-full object-cover" alt="logo">
@@ -28,12 +30,26 @@
         <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
     </div>
 </section>
-<section class="h-auto block">
-    <div class="splide h-auto" aria-label="Splide Basic HTML Example">
+<section class="h-auto block py-10 relative">
+    <div class="splide h-auto" aria-label="Splide">
+        <div class="absolute left-0 h-full w-1/4 bg-white z-40"></div>
+        <div class="absolute left-1/4 top-20 flex flex-col z-50 justify-center items-center">
+            <h2 class="text-black font-bold text-5xl -rotate-90 relative right-1.5">
+                A la <span class="text-[#C0C500]">une</span>
+            </h2>
+            <div class="splide__arrows splide__arrows--ltr flex flex-col relative top-[75px] justify-center w-fit gap-5">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track" disabled="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+                </button>
+            </div>
+        </div>
         <div class="splide__track h-auto">
             <ul class="splide__list h-auto">
                 <li class="splide__slide flex justify-center items-center h-auto relative">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10 shadow-['0px-0px-25px-#00000012']">
+                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full z-10 shadow-['0px-0px-25px-#00000012']">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-bleu.jpg" alt="galaxie bleu">
                         </div>
@@ -41,8 +57,8 @@
                     <div class="flex w-full h-full justify-end items-end absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
-                                <h3>JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
-                                <p>ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
+                                <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
+                                <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
                             </div>
                         </div>
                     </div>
@@ -56,8 +72,8 @@
                     <div class="flex w-full h-full justify-end items-end absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
-                                <h3>JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
-                                <p>ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
+                                <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
+                                <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +87,8 @@
                     <div class="flex w-full h-full justify-end items-end absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
-                                <h3>JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
-                                <p>ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
+                                <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
+                                <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
                             </div>
                         </div>
                     </div>
@@ -86,8 +102,8 @@
                     <div class="flex w-full h-full justify-end items-end absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
-                                <h3>JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
-                                <p>ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
+                                <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
+                                <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
                             </div>
                         </div>
                     </div>
@@ -101,13 +117,88 @@
                     <div class="flex w-full h-full justify-end items-end absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
-                                <h3>JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
-                                <p>ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
+                                <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
+                                <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
                             </div>
                         </div>
                     </div>
                 </li>
             </ul>
+        </div>
+    </div>
+</section>
+<section class="flex justify-center items-center sectionColabo">
+    <div class="flex flex-col justify-end items-end blocTextEcosys rounded-2xl p-32 max-w-6xl relative">
+        <div class="absolute right-1/5 -bottom-5 z-30">
+            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl">EN SAVOIR PLUS</button>
+        </div>
+        <div class="flex flex-col w-full justify-start items-start z-10">
+            <h3 class="text-4xl font-bold">Un <span class="text-[#C0C500]">écosystème collaboratif</span></h3>
+            <h4 class="text-4xl font-bold relative">pour les défis de l'Electronique de Puissance, la Conversation et le Management de l'Energie</h4>
+        </div>
+        <div class="flex w-auto flex-col justify-center items-center mt-5 blocColabo relative -left-[50px] z-10">
+            <p class="textTitreColabo relative text-start w-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, non?</p>
+            <br>
+            <div class="flex flex-wrap justify-center items-center blocTextOrange">
+                <p class="text-center uppercase flex flex-col font-bold text-sm">
+                    <span class="font-bold text-3xl text-orange-400 normal-case">23 ans</span>
+                    d'existence
+                </p>
+                <br>
+                <p class="text-center uppercase flex flex-col font-bold text-sm">
+                    <span class="font-bold text-3xl text-orange-400 normal-case">3.5 M €</span>
+                    d'infrastructures
+                </p>
+                <br>
+                <p class="text-center uppercase flex flex-col font-bold text-sm">
+                    <span class="font-bold text-3xl text-orange-400 normal-case">8 M €</span>
+                    d'équipements
+                </p>
+                <br>
+                <p class="text-center uppercase flex flex-col font-bold text-sm">
+                    <span class="text-3xl text-orange-400 normal-case">2800 m²</span>
+                    d'espace collaboratif
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="flex justify-center items-center py-20 relative min-h-96 flex-wrap mx-40">
+    <div class="flex-col flex w-1/4">
+        <h3 class="text-black text-3xl font-bold">
+            Notre <span class="text-[#C0C500]">expertise</span> et nos <span class="text-[#C0C500]">moyens techniques</span> à votre service
+        </h3>
+    </div>
+    <div class="flex justify-center items-center w-3/4 relative">
+        <div class="menuExpertise">
+            <input type="checkbox" id="toggle" class="hidden"/>
+            <label id="show-menu" for="toggle">
+                <div class="btn">
+                    <p class="material-icons md-36 toggleBtn menuBtn">menu</p>
+                    <p class="material-icons md-36 toggleBtn closeBtn">close</p>
+                </div>
+                <div class="btn">
+                    <p class="">Conception & Simulation</p>
+                </div>
+                <div class="btn">
+                    <p class="">Prototypage & Assemblage</p>
+                </div>
+                <div class="btn">
+                    <p class="">Caractérisations</p>
+                </div>
+                <div class="btn">
+                    <p class="">Essais électriques forte puissance</p>
+                </div>
+                <div class="btn">
+                    <p class="">Fiabilité Vieillissement</p>
+                </div>
+                <div class="btn">
+                    <p class="">Contrôle Non Destructif</p>
+                </div>
+                <div class="btn">
+                    <p class="">Plateforme expérimentale Smart Grid</p>
+                </div>
+            </label>
         </div>
     </div>
 </section>

@@ -1,7 +1,231 @@
+body{
+    overflow-x: hidden;
+}
+
 .degraderBar{
     background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
 }
 
 .splide__slide{
     height: auto !important;
+}
+
+.splide .splide__arrow--prev {
+    left: 0;
+}
+
+.splide .splide__arrow--next {
+    right: 0;
+}
+
+.splide .splide__arrow {
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+    background: white;
+    border: #C0C500 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: .7;
+    padding: 0;
+    top: 50%;
+    transform: inherit;
+    width: 4em;
+    height: 4em;
+    z-index: 1;
+}
+
+.cercle1{
+    box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 13px -13px rgba(0, 0, 0, 1);
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+}
+
+.splide .splide__track {
+    overflow: visible;
+}
+
+.splide .splide__pagination__page.is-active {
+    background: #C0C500;
+}
+
+.splide .splide__pagination__page {
+    background: white;
+    border: solid 1px #C0C500;
+    transform: scale(1.4);
+}
+
+.blocTextEcosys{
+    box-shadow: 0px 0px 17px -13px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 17px -13px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 17px -13px rgba(0, 0, 0, 1);
+}
+
+.sectionColabo h4:before{
+    width: 60px;
+    height: 11px;
+    border-radius: 50px;
+    background: #73A219;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+.sectionColabo .blocColabo>br{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: orange;
+    display: block;
+    position: relative;
+    margin: 30px 0;
+}
+
+.blocTextOrange br{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: black;
+    display: block;
+    position: relative;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.blocTextEcosys {
+    border-radius: 12px; /* Bordure arrondie */
+}
+
+.blocTextEcosys::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px; /* Bordure arrondie */
+    padding: 5px; /* Largeur de la bordure */
+    background: linear-gradient(180deg, #FFFFFF, #F5F5F5); /* Dégradé */
+    z-index: -1; /* Place le pseudo-élément derrière le contenu */
+}
+
+.blocTextEcosys::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 12px; /* Bordure arrondie */
+    background-color: #fff; /* Couleur de fond intérieure */
+    z-index: 0; /* Place cet élément juste sous le contenu, mais au-dessus de la bordure */
+}
+
+
+.menuExpertise {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+.menuExpertise .btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menuExpertise .btn {
+    background: #ECEFF1;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.menuExpertise .btn:not(:first-child) {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    z-index: -2;
+
+    -webkit-transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+    transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+}
+
+.menuExpertise .btn:nth-child(2) {top:0px;left:0px;-webkit-transition-delay: 0s;transition-delay: 0s}
+.menuExpertise .btn:nth-child(3) {top:0px;left:0px;-webkit-transition-delay: 0.1s;transition-delay: 0.1s}
+.menuExpertise .btn:nth-child(4) {left:0px;-webkit-transition-delay: 0.2s;;transition-delay: 0.2s}
+.menuExpertise .btn:nth-child(5) {top:0px;left:0px;-webkit-transition-delay: 0.3s;transition-delay: 0.3s}
+.menuExpertise .btn:nth-child(6) {top:0px;left:0px;-webkit-transition-delay: 0.4s;transition-delay: 0.4s}
+.menuExpertise .btn:nth-child(7) {top:0px;left:0px;-webkit-transition-delay: 0.5s;transition-delay: 0.5s}
+.menuExpertise .btn:nth-child(8) {top:0px;left:0px;-webkit-transition-delay: 0.6s;transition-delay: 0.6s}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(2) {
+    top:-236px;left:-104px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(3) {
+    top: -225px;left: 150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(4) {
+    left: 300px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(5) {
+    top :225px;left:180px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(6) {
+    top:280px;left: -50px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(7) {
+    top:120px;left:-250px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn:nth-child(8) {
+    top:-95px;left:-305px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuExpertise .menuBtn, .closeBtn {
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.menuExpertise .closeBtn {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn .menuBtn {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.menuExpertise input#toggle:checked ~ #show-menu .btn .closeBtn {
+    transform: translateY(0px);
+    opacity: 1;
 }
