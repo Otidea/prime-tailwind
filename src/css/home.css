@@ -147,7 +147,6 @@ body{
 }
 
 .menuExpertise .btn {
-    background: #ECEFF1;
     font-size: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -164,6 +163,36 @@ body{
     -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
+.menuExpertise .btn p{
+    z-index: 9;
+}
+
+.menuExpertise .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(180deg, #FFFFFF, #F5F5F5);
+    z-index: -1;
+}
+
+.menuExpertise .btn::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 0;
+}
+
 
 .menuExpertise .btn:not(:first-child) {
     opacity: 0;
@@ -228,4 +257,33 @@ body{
 .menuExpertise input#toggle:checked ~ #show-menu .btn .closeBtn {
     transform: translateY(0px);
     opacity: 1;
+}
+
+.blocCardPicto{
+    transition: 0.3s;
+}
+
+.blocCardPicto:hover{
+    background: #3A3D6A;
+    transition: 0.3s;
+}
+
+.blocCardPicto h5{
+    color: black;
+    transition: 0.3s;
+}
+
+.blocCardPicto:hover h5{
+    transition: 0.3s;
+    color: white;
+}
+
+.blocCardPicto .bordurePicto{
+    transition: 0.3s;
+    border-color: #BAC202;
+}
+
+.blocCardPicto:hover .bordurePicto{
+    border-color: white;
+    transition: 0.3s;
 }
