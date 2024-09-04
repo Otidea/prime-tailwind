@@ -6,6 +6,10 @@ body{
     background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
 }
 
+.degraderFooter{
+    background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
+}
+
 .splide__slide{
     height: auto !important;
 }
@@ -205,7 +209,7 @@ body{
 
 .menuExpertise .btn:nth-child(2) {top:0px;left:0px;-webkit-transition-delay: 0s;transition-delay: 0s}
 .menuExpertise .btn:nth-child(3) {top:0px;left:0px;-webkit-transition-delay: 0.1s;transition-delay: 0.1s}
-.menuExpertise .btn:nth-child(4) {left:0px;-webkit-transition-delay: 0.2s;;transition-delay: 0.2s}
+.menuExpertise .btn:nth-child(4) {left:0px;-webkit-transition-delay: 0.2s;transition-delay: 0.2s}
 .menuExpertise .btn:nth-child(5) {top:0px;left:0px;-webkit-transition-delay: 0.3s;transition-delay: 0.3s}
 .menuExpertise .btn:nth-child(6) {top:0px;left:0px;-webkit-transition-delay: 0.4s;transition-delay: 0.4s}
 .menuExpertise .btn:nth-child(7) {top:0px;left:0px;-webkit-transition-delay: 0.5s;transition-delay: 0.5s}
@@ -286,4 +290,85 @@ body{
 .blocCardPicto:hover .bordurePicto{
     border-color: white;
     transition: 0.3s;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+.defilement {
+    animation: defilement 20s linear infinite;
+}
+
+.addressFooter>p:before{
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background: #BAC202;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+@media (max-width: 1620px) {
+    .sectionMenuHome {
+        flex-direction: column;
+        padding: inherit;
+        margin: 0;
+        padding-bottom: 300px;
+    }
+    .blocTextMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        padding-bottom: 350px;
+    }
+    .blocTextMenu h3{
+        text-align: center;
+    }
+    .blocMenuHome{
+        width: 100%;
+    }
+    .blocMenuHome .menuExpertise{
+        left: 44%;
+    }
+}
+@media (max-width: 1750px) {
+    .blocBoutonSlider{
+        left: 15%;
+    }
+}
+@media (max-width: 1279px) {
+    .addressFooter>p:before {
+        left: calc(50% - 25px);
+    }
+    .blocBoutonSlider{
+        left: 10%;
+    }
+    .splide__pagination {
+        bottom: -1.5em !important;
+    }
+}
+@media (max-width: 1023px) {
+    .sectionColabo h4:before {
+        bottom: -20px;
+    }
+}
+@media (max-width: 890px) {
+    .menuExpertise .btn {
+        width: 150px;
+        height: 150px;
+    }
+    .sectionMenuHome {
+        padding-bottom: 50px;
+    }
+    .blocTextMenu{
+        padding-bottom: 50px;
+    }
 }

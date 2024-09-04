@@ -6,6 +6,7 @@
     <link href="./css/output.css" rel="stylesheet">
     <link href="./css/home.css" rel="stylesheet">
     <link href="./assets/splide-4.1.3/dist/css/splide.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 <nav class="z-[90] relative">
@@ -28,10 +29,10 @@
         <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
     </div>
 </section>
-<section class="h-auto block py-10 relative">
+<section class="h-auto block py-10 relative overflow-hidden">
     <div class="splide h-auto" aria-label="Splide">
-        <div class="absolute left-0 h-full w-1/4 bg-white z-40"></div>
-        <div class="absolute left-1/4 top-20 flex flex-col z-50 justify-center items-center">
+        <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block"></div>
+        <div class="absolute left-1/4 top-20 flex flex-col z-50 justify-center items-center blocBoutonSlider">
             <h2 class="text-black font-bold text-5xl -rotate-90 relative right-1.5">
                 A la <span class="text-[#C0C500]">une</span>
             </h2>
@@ -46,13 +47,13 @@
         </div>
         <div class="splide__track h-auto">
             <ul class="splide__list h-auto">
-                <li class="splide__slide flex justify-center items-center h-auto relative">
+                <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
                     <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full z-10 shadow-['0px-0px-25px-#00000012']">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-bleu.jpg" alt="galaxie bleu">
                         </div>
                     </div>
-                    <div class="flex w-full h-full justify-end items-end absolute">
+                    <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
@@ -61,13 +62,13 @@
                         </div>
                     </div>
                 </li>
-                <li class="splide__slide flex justify-center items-center h-auto relative">
+                <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
                     <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie.png" alt="galaxie bleu">
                         </div>
                     </div>
-                    <div class="flex w-full h-full justify-end items-end absolute">
+                    <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
@@ -76,13 +77,13 @@
                         </div>
                     </div>
                 </li>
-                <li class="splide__slide flex justify-center items-center h-auto relative">
+                <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
                     <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-2.jpg" alt="galaxie bleu">
                         </div>
                     </div>
-                    <div class="flex w-full h-full justify-end items-end absolute">
+                    <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
@@ -91,13 +92,13 @@
                         </div>
                     </div>
                 </li>
-                <li class="splide__slide flex justify-center items-center h-auto relative">
+                <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
                     <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-3.jpg" alt="galaxie bleu">
                         </div>
                     </div>
-                    <div class="flex w-full h-full justify-end items-end absolute">
+                    <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
@@ -106,13 +107,13 @@
                         </div>
                     </div>
                 </li>
-                <li class="splide__slide flex justify-center items-center h-auto relative">
+                <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
                     <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
                         <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-4.jpg" alt="galaxie bleu">
                         </div>
                     </div>
-                    <div class="flex w-full h-full justify-end items-end absolute">
+                    <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
                         <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
@@ -125,16 +126,13 @@
         </div>
     </div>
 </section>
-<section class="flex justify-center items-center sectionColabo py-56">
-    <div class="flex flex-col justify-end items-end blocTextEcosys rounded-2xl p-32 max-w-6xl relative">
-        <div class="absolute right-1/5 -bottom-5 z-30">
-            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl">EN SAVOIR PLUS</button>
-        </div>
+<section class="flex justify-center items-center sectionColabo py-56 overflow-hidden">
+    <div class="flex flex-col justify-end items-end blocTextEcosys rounded-2xl p-5 lg:p-32 max-w-6xl relative">
         <div class="flex flex-col w-full justify-start items-start z-10">
             <h3 class="text-4xl font-bold">Un <span class="text-[#C0C500]">écosystème collaboratif</span></h3>
             <h4 class="text-4xl font-bold relative">pour les défis de l'Electronique de Puissance, la Conversation et le Management de l'Energie</h4>
         </div>
-        <div class="flex w-auto flex-col justify-center items-center mt-5 blocColabo relative -left-[50px] z-10">
+        <div class="flex w-auto flex-col justify-center items-center mt-5 blocColabo relative left-0 lg:-left-[50px] z-10">
             <p class="textTitreColabo relative text-start w-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, non?</p>
             <br>
             <div class="flex flex-wrap justify-center items-center blocTextOrange">
@@ -159,10 +157,13 @@
                 </p>
             </div>
         </div>
+        <div class="absolute right-1/5 -bottom-10 lg:-bottom-5 z-30">
+            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl">EN SAVOIR PLUS</button>
+        </div>
     </div>
 </section>
-<section class="flex justify-center items-center py-56 relative min-h-96 flex-wrap mx-40 z-20">
-    <div class="flex-col flex w-1/4 items-end">
+<section class="flex justify-center items-center py-56 relative min-h-96 flex-wrap mx-40 z-20 sectionMenuHome">
+    <div class="flex-col flex w-1/4 items-end blocTextMenu">
         <h3 class="text-black text-4xl font-bold">
             Notre <span class="text-[#C0C500]">expertise</span> et nos <span class="text-[#C0C500]">moyens techniques</span> à votre service
         </h3>
@@ -170,12 +171,12 @@
             <button class="px-10 py-3 bg-[#C0C500] text-white rounded-3xl">EN SAVOIR PLUS</button>
         </div>
     </div>
-    <div class="flex justify-center items-center w-2/4 relative">
+    <div class="justify-center items-center w-2/4 relative blocMenuHome hidden md:flex ">
         <div class="menuExpertise">
             <input type="checkbox" id="toggle" class="hidden"/>
             <label id="show-menu" for="toggle">
                 <div class="btn">
-                    <p class="toggleBtn menuBtn text-[#383838] text-7xl">+</p>
+                    <p class="toggleBtn menuBtn text-[#383838] text-7xl animate-bounce">+</p>
                     <p class="toggleBtn closeBtn text-[#383838] text-7xl">-</p>
                 </div>
                 <div class="btn">
@@ -202,8 +203,37 @@
             </label>
         </div>
     </div>
+    <div class="flex justify-center items-center flex-col gap-5 md:hidden">
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</p>
+        </a>
+        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+        <a>
+            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</p>
+        </a>
+    </div>
 </section>
-<section class="flex justify-center items-center sectionColabo py-20 z-10 relative">
+<section class="flex justify-center items-center sectionColabo pt-20 z-10 relative pb-10 bg-[#F2F2F2]">
     <img src="./img/galaxie-5.jpg" class="object-cover h-2/4 w-full absolute top-0">
     <div class="py-24 sm:py-32 z-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -218,7 +248,6 @@
                         </a>
                     </div>
                 </div>
-
 
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20">
                     <a href="#">
@@ -245,48 +274,61 @@
         </div>
     </div>
 </section>
-<section class="flex justify-center items-center sectionColabo py-20 z-10 relative">
-    <img src="./img/galaxie-5.jpg" class="object-cover h-2/4 w-full absolute top-0">
-    <div class="py-24 sm:py-32 z-10">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 hover:bg-[#3A3D6A]">
-                    <a href="#">
-                        <img class="h-36 w-36" src="./img/bulletin-de-vote.svg" alt="" />
-                    </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
+<section class="flex z-10 relative bg-[#F2F2F2]">
+    <div class="overflow-hidden whitespace-nowrap w-full">
+        <p class="defilement text-7xl font-bold text-gray-400 w-fit flex items-center">
+            COMPETITION <span class="text-3xl mx-16">|</span> OVATION <span class="text-3xl mx-16">|</span> ENTRAINEMENT
+        </p>
+    </div>
+</section>
+<section class="flex z-10 py-16 items-center justify-center bg-[#F2F2F2]">
+    <div class="flex justify-center items-center flex-col lg:flex-row text-center lg:text-left">
+        <h4 class="text-black text-4xl font-bold">
+            Un <span class="text-[#C0C500]">besoin spécifique,</span> une question ?
+        </h4>
+        <div class="mx-7 mt-5 lg:mt-0">
+            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl">EN SAVOIR PLUS</button>
+        </div>
+    </div>
+</section>
+<footer class="flex flex-col">
+    <div class="flex justify-center items-center gap-3 w-full py-16 bg-white flex-wrap">
+        <img src="./img/reshot-icon-beer-JTEZ83SBCK.svg" class="w-28 h-28">
+        <img src="./img/reshot-icon-beers-Y5P7QVRAB4.svg" class="w-28 h-28">
+        <img src="./img/reshot-icon-code-CZ2NMXUGQ8.svg" class="w-28 h-28">
+        <img src="./img/reshot-icon-game-ZU836T7Q4H.svg" class="w-28 h-28">
+        <img src="./img/reshot-icon-keg-EDMNSY7RGV.svg" class="w-28 h-28">
+    </div>
+    <div class="bg-[#383838] flex flex-col justify-center items-center rounded-t-2xl">
+        <img src="./img/a-elita.svg" class="w-52">
+        <div class="flex justify-center items-center flex-wrap w-full py-20 flex-col gap-5 xl:flex-row xl:gap-0">
+            <div class="flex flex-col z-10 w-full px-5 sm:px-0 sm:w-1/2 justify-center items-center xl:justify-end xl:items-end">
+                <div class="flex flex-col gap-5 justify-center items-center xl:justify-start xl:items-start text-center xl:text-left">
+                    <div class="flex flex-col addressFooter relative w-fit">
+                        <p class="text-white">67 Boulevard Pierre Renaudet</p>
+                        <p class="text-white">65000 TARBES</p>
+                    </div>
+                    <div class="flex flex-col w-fit">
+                        <p class="text-white font-bold">Plateforme PRIMES : <span class="text-[#C0C500]"><a>+33 (0)5 62 96 29 28</a></span></p>
+                        <p class="text-white font-bold text-wrap sm:text-nowrap">Association des industriels de la plateforme PRIMES : <span class="text-[#C0C500]"><a>+33 (0)5 62 96 29 27</a></span></p>
                     </div>
                 </div>
-
-
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20">
-                    <a href="#">
-                        <img class="h-36 w-36" src="./img/main-tenant-ensemencement.svg" alt="" />
-                    </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                    </div>
+            </div>
+            <div class="flex flex-col justify-center items-center z-10 w-full sm:w-1/2 gap-10">
+                <div class="flex gap-3 flex-col justify-center items-center sm:flex-row">
+                    <button class="px-10 py-3 bg-[#E58406] text-white rounded-3xl">NOUS CONTACTER</button>
+                    <a class="bg-[#73A219] rounded-full h-[50px] w-[50px] flex justify-center items-center"><i class="fa-brands fa-linkedin-in text-2xl text-white"></i></a>
                 </div>
-
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20">
-                    <a href="#">
-                        <img class="h-36 w-36" src="./img/mobile-encoche.svg" alt="" />
-                    </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
-                    </div>
+                <div class="flex">
+                    <p class="flex text-white text-wrap sm:text-nowrap gap-1 flex-col sm:flex-row text-center">
+                        <a>Mentions Légales</a> & <a>Politique de confidentialité</a> - <a href="https://www.otidea.com">Réalisation : www.otidea.com</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <div class="w-full h-3 degraderFooter"></div>
+</footer>
 </body>
 <script src="./assets/splide-4.1.3/dist/js/splide.min.js"></script>
 <script src="./js/splide.js"></script>
