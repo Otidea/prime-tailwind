@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120.5" height="218.11" viewBox="0 0 120.5 218.11">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c0c500"/>
+      <stop offset="0.749" stop-color="#73a219"/>
+      <stop offset="1" stop-color="#73a219"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.536" x2="0.029" y2="0.548" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="Ellipse_33" x="0" y="97.61" width="120.5" height="120.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.037" y1="0.5" x2="0.962" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_67" data-name="Groupe 67" transform="translate(-904.75 -1030.5)">
+    <g id="Groupe_66" data-name="Groupe 66">
+      <path id="Tracé_149" data-name="Tracé 149" d="M941,4034.5a18.5,18.5,0,0,1-18.5-18.5V3892a18.5,18.5,0,0,1,37,0v124A18.5,18.5,0,0,1,941,4034.5Z" transform="translate(24 -2843)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="34" cy="34" r="34" transform="translate(931 1154)" fill="#73a219"/>
+    </g>
+    <g id="Groupe_52" data-name="Groupe 52" transform="translate(-700.043 -1673.451)">
+      <g transform="matrix(1, 0, 0, 1, 1604.79, 2703.95)" filter="url(#Ellipse_33)">
+        <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="22.75" cy="22.75" r="22.75" transform="translate(37.5 180.61) rotate(-90)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <circle id="Ellipse_34" data-name="Ellipse 34" cx="19.721" cy="19.721" r="19.721" transform="translate(1645.323 2881.532) rotate(-90)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

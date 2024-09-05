@@ -10,10 +10,10 @@
 </head>
 <body>
 <nav class="z-[90] relative">
-    <div class="fixed top-0 h-3 w-full degraderBar"></div>
-    <div class="fixed top-0 left-0 h-40 w-40 bg-white z-20 rounded-br-3xl overflow-hidden">
+    <div class="fixed top-0 h-3 w-full degraderBar z-30"></div>
+    <div class="fixed top-0 left-0 h-28 w-40 bg-white z-20 rounded-br-3xl overflow-hidden flex justify-center items-center">
         <a href="https://otidea.com">
-            <img src="./img/7.jpg" class="h-full w-full object-cover" alt="logo">
+            <img src="./img/logo.svg" class="h-24 w-24" alt="logo">
         </a>
     </div>
 </nav>
@@ -28,19 +28,25 @@
         <button class="bg-[#C0C500] px-7 py-2 rounded-full text-white uppercase">NOTRE OFFRE</button>
         <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
     </div>
+    <div class="absolute -bottom-2 h-full w-full flex items-end">
+        <img src="./img/bandeau_prime.svg" class="w-full h-auto" alt="vague multi couleur">
+    </div>
+    <div class="absolute -bottom-36 flex items-end">
+        <img src="./img/homeRond.svg" class="h-56" alt="vague multi couleur">
+    </div>
 </section>
-<section class="h-auto block py-10 relative overflow-hidden">
-    <div class="splide h-auto" aria-label="Splide">
+<section class="h-auto block py-10 pt-36 relative overflow-hidden">
+    <div class="splide h-auto xl:block flex justify-center items-center flex-col">
         <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block"></div>
-        <div class="absolute left-1/4 top-20 flex flex-col z-50 justify-center items-center blocBoutonSlider">
+        <div class="absolute xl:left-1/4 xl:top-20 flex flex-col z-50 justify-center items-center blocBoutonSlider">
             <h2 class="text-black font-bold text-5xl -rotate-90 relative right-1.5">
                 A la <span class="text-[#C0C500]">une</span>
             </h2>
-            <div class="splide__arrows splide__arrows--ltr flex flex-col relative top-[75px] justify-center w-fit gap-5">
-                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track" disabled="">
+            <div class="splide__arrows splide__arrows--ltr flex xl:flex-col relative xl:top-[75px] justify-center w-fit xl:gap-5">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"  disabled="">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
                 </button>
-                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
                 </button>
             </div>
@@ -48,13 +54,13 @@
         <div class="splide__track h-auto">
             <ul class="splide__list h-auto">
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full z-10 shadow-['0px-0px-25px-#00000012']">
-                        <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
-                            <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-bleu.jpg" alt="galaxie bleu">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                        <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
+                            <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-bleu.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -63,13 +69,13 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
-                        <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
-                            <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie.png" alt="galaxie bleu">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                        <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
+                            <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie.png" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -78,13 +84,13 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
-                        <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
-                            <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-2.jpg" alt="galaxie bleu">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                        <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
+                            <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-2.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -93,13 +99,13 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
-                        <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
-                            <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-3.jpg" alt="galaxie bleu">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                        <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
+                            <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-3.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -108,13 +114,13 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[630px] w-[630px] rounded-full bg-black z-10">
-                        <div class="cercle2 flex justify-center items-center h-[620px] w-[620px] rounded-full bg-white z-20">
-                            <img class="z-30 rounded-full object-cover w-[580px] h-[580px]" src="./img/galaxie-4.jpg" alt="galaxie bleu">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                        <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
+                            <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-4.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -126,38 +132,41 @@
         </div>
     </div>
 </section>
-<section class="flex justify-center items-center sectionColabo py-56 overflow-hidden">
-    <div class="flex flex-col justify-end items-end blocTextEcosys rounded-2xl p-5 lg:p-32 max-w-6xl relative">
+<section class="flex justify-center items-center sectionColabo py-10 md:py-28 lg:py-64 overflow-hidden sectionEcosys relative">
+    <div class="hidden lg:flex justify-start items-center absolute w-full h-full pointer-events-none">
+        <img src="./img/liaison.svg" alt="liaison entre deux section" class="absolute z-10 pointer-events-none h-full w-3/4">
+    </div>
+    <div class="flex flex-col justify-center items-center lg:justify-end lg:items-end blocTextEcosys rounded-2xl p-5 lg:p-32 max-w-6xl relative">
         <div class="flex flex-col w-full justify-start items-start z-10">
-            <h3 class="text-4xl font-bold">Un <span class="text-[#C0C500]">écosystème collaboratif</span></h3>
-            <h4 class="text-4xl font-bold relative">pour les défis de l'Electronique de Puissance, la Conversation et le Management de l'Energie</h4>
+            <h3 class="text-3xl lg:text-4xl font-bold text-center lg:text-left w-full">Un <span class="text-[#C0C500]">écosystème collaboratif</span></h3>
+            <h4 class="text-3xl lg:text-4xl font-bold relative text-center lg:text-left">pour les défis de l'Electronique de Puissance, la Conversation et le Management de l'Energie</h4>
         </div>
-        <div class="flex w-auto flex-col justify-center items-center mt-5 blocColabo relative left-0 lg:-left-[50px] z-10">
-            <p class="textTitreColabo relative text-start w-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, non?</p>
+        <div class="flex w-full lg:w-auto flex-col justify-center items-center mt-5 blocColabo relative left-0 lg:-left-[50px] z-10">
+            <p class="textTitreColabo relative text-center lg:text-start w-full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, non?</p>
             <br>
-            <div class="flex flex-wrap justify-center items-center blocTextOrange">
+            <div class="flex flex-wrap justify-center items-center blocTextOrange gap-3 sm:gap-0">
                 <p class="text-center uppercase flex flex-col font-bold text-sm">
                     <span class="font-bold text-3xl text-orange-400 normal-case">23 ans</span>
                     d'existence
                 </p>
-                <br>
+                <br class="hidden sm:block">
                 <p class="text-center uppercase flex flex-col font-bold text-sm">
                     <span class="font-bold text-3xl text-orange-400 normal-case">3.5 M €</span>
                     d'infrastructures
                 </p>
-                <br>
+                <br class="hidden sm:block">
                 <p class="text-center uppercase flex flex-col font-bold text-sm">
                     <span class="font-bold text-3xl text-orange-400 normal-case">8 M €</span>
                     d'équipements
                 </p>
-                <br>
+                <br class="hidden sm:block">
                 <p class="text-center uppercase flex flex-col font-bold text-sm">
                     <span class="text-3xl text-orange-400 normal-case">2800 m²</span>
                     d'espace collaboratif
                 </p>
             </div>
         </div>
-        <div class="absolute right-1/5 -bottom-10 lg:-bottom-5 z-30">
+        <div class="absolute right-inherit lg:right-1/5 -bottom-10 lg:-bottom-5 z-30">
             <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl">EN SAVOIR PLUS</button>
         </div>
     </div>
@@ -173,68 +182,73 @@
     </div>
     <div class="justify-center items-center w-2/4 relative blocMenuHome hidden md:flex ">
         <div class="menuExpertise">
-            <input type="checkbox" id="toggle" class="hidden"/>
-            <label id="show-menu" for="toggle">
+            <div id="show-menu">
                 <div class="btn">
-                    <p class="toggleBtn menuBtn text-[#383838] text-7xl animate-bounce">+</p>
-                    <p class="toggleBtn closeBtn text-[#383838] text-7xl">-</p>
+                    <button id="toggleMenuExpertise" class="h-full w-full absolute flex justify-center items-center z-10" aria-expanded="false" aria-controls="menu-items">
+                        <span class="toggleBtn menuBtn text-[#383838] text-7xl animate-bounce show" aria-hidden="false">+</span>
+                        <span class="toggleBtn closeBtn text-[#383838] text-7xl" aria-hidden="true">-</span>
+                    </button>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</p>
+            </div>
+
+            <div id="menu-items">
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
                 </div>
-                <div class="btn">
-                    <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</p>
+                <div class="btn btnItems">
+                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
                 </div>
-            </label>
+            </div>
         </div>
+
     </div>
     <div class="flex justify-center items-center flex-col gap-5 md:hidden">
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
         </a>
         <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
         <a>
-            <p class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</p>
+            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
         </a>
     </div>
 </section>
 <section class="flex justify-center items-center sectionColabo pt-20 z-10 relative pb-10 bg-[#F2F2F2]">
-    <img src="./img/galaxie-5.jpg" class="object-cover h-2/4 w-full absolute top-0">
+    <img src="./img/back3Card.jpg" class="object-cover h-2/4 w-full absolute top-0" alt="galaxie">
     <div class="py-24 sm:py-32 z-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -275,10 +289,10 @@
     </div>
 </section>
 <section class="flex z-10 relative bg-[#F2F2F2]">
-    <div class="overflow-hidden whitespace-nowrap w-full">
-        <p class="defilement text-7xl font-bold text-gray-400 w-fit flex items-center">
-            COMPETITION <span class="text-3xl mx-16">|</span> OVATION <span class="text-3xl mx-16">|</span> ENTRAINEMENT
-        </p>
+    <div class="overflow-hidden whitespace-nowrap w-full containerDefilement">
+        <h3 class="defilement text-7xl font-bold text-gray-400 w-fit flex items-center" id="textDefilement">
+            INNOVATION <span class="text-3xl mx-16">|</span> COMPÉTITIVITÉ <span class="text-3xl mx-16">|</span> COLLABORATION
+        </h3>
     </div>
 </section>
 <section class="flex z-10 py-16 items-center justify-center bg-[#F2F2F2]">
@@ -293,14 +307,14 @@
 </section>
 <footer class="flex flex-col">
     <div class="flex justify-center items-center gap-3 w-full py-16 bg-white flex-wrap">
-        <img src="./img/reshot-icon-beer-JTEZ83SBCK.svg" class="w-28 h-28">
-        <img src="./img/reshot-icon-beers-Y5P7QVRAB4.svg" class="w-28 h-28">
-        <img src="./img/reshot-icon-code-CZ2NMXUGQ8.svg" class="w-28 h-28">
-        <img src="./img/reshot-icon-game-ZU836T7Q4H.svg" class="w-28 h-28">
-        <img src="./img/reshot-icon-keg-EDMNSY7RGV.svg" class="w-28 h-28">
+        <img src="./img/reshot-icon-beer-JTEZ83SBCK.svg" class="w-28 h-28" alt="beer">
+        <img src="./img/reshot-icon-beers-Y5P7QVRAB4.svg" class="w-28 h-28" alt="beer">
+        <img src="./img/reshot-icon-code-CZ2NMXUGQ8.svg" class="w-28 h-28" alt="beer">
+        <img src="./img/reshot-icon-game-ZU836T7Q4H.svg" class="w-28 h-28" alt="beer">
+        <img src="./img/reshot-icon-keg-EDMNSY7RGV.svg" class="w-28 h-28" alt="beer">
     </div>
     <div class="bg-[#383838] flex flex-col justify-center items-center rounded-t-2xl">
-        <img src="./img/a-elita.svg" class="w-52">
+        <img src="./img/footerlogo.svg" alt="logoFooter">
         <div class="flex justify-center items-center flex-wrap w-full py-20 flex-col gap-5 xl:flex-row xl:gap-0">
             <div class="flex flex-col z-10 w-full px-5 sm:px-0 sm:w-1/2 justify-center items-center xl:justify-end xl:items-end">
                 <div class="flex flex-col gap-5 justify-center items-center xl:justify-start xl:items-start text-center xl:text-left">
@@ -330,6 +344,7 @@
     <div class="w-full h-3 degraderFooter"></div>
 </footer>
 </body>
+<script src="./js/home.js"></script>
 <script src="./assets/splide-4.1.3/dist/js/splide.min.js"></script>
 <script src="./js/splide.js"></script>
 </html>

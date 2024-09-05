@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="728.679" height="1268.5" viewBox="0 0 728.679 1268.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd200"/>
+      <stop offset="0.264" stop-color="#fff0a8"/>
+      <stop offset="0.552" stop-color="#e58406"/>
+      <stop offset="1" stop-color="#ffd200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.536" x2="0.029" y2="0.548" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="Ellipse_33" x="608.179" y="0" width="120.5" height="120.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.037" y1="0.5" x2="0.962" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <filter id="Ellipse_33-2" x="608.179" y="1148" width="120.5" height="120.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-2"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_58" data-name="Groupe 58" transform="translate(-296.571 -2038.11)">
+    <path id="Tracé_160" data-name="Tracé 160" d="M3977,3260.5a18.5,18.5,0,0,1-18.5-18.5v-86.8c0-11.424-4.157-15.307-5.523-16.584-6.241-5.83-17.533-6.431-21.358-6.171-.418.029-1.007.055-1.426.055H3396.121c-21.932,0-39.113-6.541-51.066-19.44-15.711-16.956-15.787-38.34-15.554-43.478V2271.236c-.222-5.055-.1-25.82,15.278-42.406,11.89-12.827,29.045-19.331,50.989-19.331h532.45c11.658,0,19.965-2.649,24.689-7.873,6.846-7.569,5.723-19.593,5.711-19.713-.062-.616-.118-1.466-.118-2.085V2103.6a18.5,18.5,0,0,1,37,0v75.323c.53,6.25,1.189,29.019-14.718,47.033-12.034,13.629-29.719,20.539-52.564,20.539h-532.45c-11.081,0-19.045,2.453-23.672,7.29-5.984,6.256-5.635,15.732-5.631,15.827.012.274.035.859.035,1.133v799.331q0,.7-.053,1.407v0c.006,0-.344,10.042,5.922,16.61,4.686,4.912,12.677,7.4,23.752,7.4h533.441c5.729-.34,30.368-.729,48.339,15.769,8.029,7.37,17.6,20.974,17.6,43.93V3242A18.5,18.5,0,0,1,3977,3260.5Z" transform="translate(-3012)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_153" data-name="Tracé 153" d="M941,4570.348a18.5,18.5,0,0,1-18.5-18.5V3892a18.5,18.5,0,0,1,37,0v659.848A18.5,18.5,0,0,1,941,4570.348Z" transform="translate(-580.929 -1552.849)" fill="#ffd200" opacity="0.68"/>
+    <path id="Tracé_155" data-name="Tracé 155" d="M941,4318.5a18.5,18.5,0,0,1-18.5-18.5V3892a18.5,18.5,0,0,1,37,0v408A18.5,18.5,0,0,1,941,4318.5Z" transform="translate(-625.929 -1501.389)" fill="#c0c500" opacity="0.68"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="34" cy="34" r="34" transform="translate(931 2064)" fill="#ffd200"/>
+    <g id="Groupe_48" data-name="Groupe 48" transform="translate(-700.043 -763.451)">
+      <g transform="matrix(1, 0, 0, 1, 996.61, 2801.56)" filter="url(#Ellipse_33)">
+        <circle id="Ellipse_33-3" data-name="Ellipse 33" cx="22.75" cy="22.75" r="22.75" transform="translate(645.68 83) rotate(-90)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <circle id="Ellipse_34" data-name="Ellipse 34" cx="19.721" cy="19.721" r="19.721" transform="translate(1645.323 2881.532) rotate(-90)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="34" cy="34" r="34" transform="translate(931 3212)" fill="#fbc601"/>
+    <g id="Groupe_46" data-name="Groupe 46" transform="translate(-700.043 384.549)">
+      <g transform="matrix(1, 0, 0, 1, 996.61, 1653.56)" filter="url(#Ellipse_33-2)">
+        <circle id="Ellipse_33-4" data-name="Ellipse 33" cx="22.75" cy="22.75" r="22.75" transform="translate(645.68 1231) rotate(-90)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <circle id="Ellipse_34-2" data-name="Ellipse 34" cx="19.721" cy="19.721" r="19.721" transform="translate(1645.323 2881.532) rotate(-90)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>
