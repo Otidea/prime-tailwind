@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.74" height="53.74" viewBox="0 0 53.74 53.74">
+  <g id="btn_fleche" transform="translate(26.87) rotate(45)">
+    <circle id="bg_btn" cx="19" cy="19" r="19" transform="translate(0)" fill="#fff"/>
+    <path id="flèche" d="M.955,14.634A.954.954,0,0,1,.28,13.005L11.375,1.91H.955A.954.954,0,0,1,.955,0H13.677A.048.048,0,0,1,13.7,0h0a.955.955,0,0,1,.654.276h0l0,0v0h0a.955.955,0,0,1,.2.308.933.933,0,0,1,.072.348h0V13.68a.954.954,0,1,1-1.908,0V3.259l-11.1,11.1a.95.95,0,0,1-.674.28" transform="translate(11.452 11.452)" fill="#383838"/>
+  </g>
+</svg>
