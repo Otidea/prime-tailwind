@@ -1,33 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="537.539" height="338.45" viewBox="0 0 537.539 338.45">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c0c500"/>
-      <stop offset="1" stop-color="#73a219"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="1" y1="0.536" x2="0.029" y2="0.548" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#e8e8e8"/>
-    </linearGradient>
-    <filter id="Ellipse_33" x="417.039" y="217.95" width="120.5" height="120.5" filterUnits="userSpaceOnUse">
-      <feOffset input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="12.5" result="blur"/>
-      <feFlood flood-opacity="0.071"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-3" x1="0.037" y1="0.5" x2="0.962" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#f5f5f5"/>
-    </linearGradient>
-  </defs>
-  <g id="Groupe_63" data-name="Groupe 63" transform="translate(-481.711 -4895.295)">
-    <path id="Tracé_160" data-name="Tracé 160" d="M765.5,3264.5A18.5,18.5,0,0,1,747,3246v-76c0-12.366-3.123-21.5-9.283-27.138-8.989-8.233-24.007-8.889-29.035-8.446l-.809.071-.958.014H368c-28.424,0-49.951-8.219-63.984-24.428-17.2-19.867-16.2-44.072-15.516-50.891V2998a18.5,18.5,0,0,1,37,0v63.573l-.191,1.317h0s-1.516,13.725,6.868,23.179c6.726,7.585,18.779,11.431,35.823,11.431H706.126c6.634-.5,35.015-1.38,56.237,17.763,9.871,8.9,21.637,25.627,21.637,54.737v76A18.5,18.5,0,0,1,765.5,3264.5Z" transform="translate(1265.711 8159.795) rotate(180)" fill="url(#linear-gradient)"/>
-    <circle id="Ellipse_43" data-name="Ellipse 43" cx="34" cy="34" r="34" transform="translate(993 5207.855) rotate(180)" fill="#b0be05"/>
-    <g id="Groupe_56" data-name="Groupe 56" transform="translate(2624.043 8035.306) rotate(180)">
-      <g transform="matrix(-1, 0, 0, -1, 2142.33, 3140.01)" filter="url(#Ellipse_33)">
-        <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="22.75" cy="22.75" r="22.75" transform="translate(500.04 255.45) rotate(90)" fill="url(#linear-gradient-2)"/>
-      </g>
-      <circle id="Ellipse_34" data-name="Ellipse 34" cx="19.721" cy="19.721" r="19.721" transform="translate(1645.323 2881.532) rotate(-90)" fill="url(#linear-gradient-3)"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.5, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 537.5 320" style="enable-background:new 0 0 537.5 320;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Tracé_160_00000054962377240743707820000017308928297723365047_);}
+	.st1{fill:#B0BE05;}
+	.st2{filter:url(#Ellipse_33);}
+	.st3{fill:url(#Ellipse_33-2_00000018955437659942290970000015094265605088736186_);}
+	.st4{fill:url(#Ellipse_34_00000111874651294429915410000003297071649595561393_);}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="120.5" id="Ellipse_33" width="120.5" x="417.039" y="217.95">
+	<feOffset  input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="12.5"></feGaussianBlur>
+	<feFlood  flood-opacity="0.071"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g id="Groupe_63" transform="translate(-481.711 -4895.295)">
+	
+		<linearGradient id="Tracé_160_00000156553787626065693310000000882587655141315476_" gradientUnits="userSpaceOnUse" x1="454.1545" y1="5467.5693" x2="454.1545" y2="5466.6343" gradientTransform="matrix(-495.8013 0 0 285 225900 -1553095.5)">
+		<stop  offset="0" style="stop-color:#C0C500"/>
+		<stop  offset="1" style="stop-color:#73A219"/>
+	</linearGradient>
+	<path id="Tracé_160" style="fill:url(#Tracé_160_00000156553787626065693310000000882587655141315476_);" d="M518.7,4895.3
+		L518.7,4895.3v76c0,12.4,3.1,21.5,9.3,27.1c9,8.2,24,8.9,29,8.4l0.8-0.1l1,0h338.9c28.4,0,50,8.2,64,24.4
+		c17.2,19.9,16.2,44.1,15.5,50.9v61.2c0,10.2-8.3,18.5-18.5,18.5c-10.2,0-18.5-8.3-18.5-18.5v-63.6l0.2-1.3l0,0
+		c0,0,1.5-13.7-6.9-23.2c-6.7-7.6-18.8-11.4-35.8-11.4H559.6c-6.6,0.5-35,1.4-56.2-17.8c-9.9-8.9-21.6-25.6-21.6-54.7v-76
+		L518.7,4895.3z"/>
+	<circle id="Ellipse_43" class="st1" cx="959" cy="5155.4" r="34"/>
+	<g id="Groupe_56" transform="translate(2624.043 8035.306) rotate(180)">
+		<g transform="matrix(-1, 0, 0, -1, 2142.33, 3140.01)" class="st2">
+			
+				<linearGradient id="Ellipse_33-2_00000059270888423481330470000013271735171946189750_" gradientUnits="userSpaceOnUse" x1="-21.4635" y1="571.5105" x2="-22.4345" y2="571.4985" gradientTransform="matrix(2.786072e-15 45.5 45.5 -2.786072e-15 -25526.1562 1259.0361)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E8E8E8"/>
+			</linearGradient>
+			
+				<circle id="Ellipse_33-2_00000176008290919205518550000014675472712617531778_" style="fill:url(#Ellipse_33-2_00000059270888423481330470000013271735171946189750_);" cx="477.3" cy="259.7" r="22.8"/>
+		</g>
+		
+			<linearGradient id="Ellipse_34_00000056402136415078485270000008622564258435646102_" gradientUnits="userSpaceOnUse" x1="2163.9058" y1="2568.4111" x2="2164.8308" y2="2568.4111" gradientTransform="matrix(-2.415126e-15 39.442 39.442 2.415126e-15 -99638.2344 -82450.2031)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#F5F5F5"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_34" style="fill:url(#Ellipse_34_00000056402136415078485270000008622564258435646102_);" cx="1665" cy="2880.3" r="19.7"/>
+	</g>
+</g>
 </svg>

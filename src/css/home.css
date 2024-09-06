@@ -330,6 +330,15 @@ body{
     top: -20px;
 }
 
+.last3card:before{
+    content: url(../img/liaison3cardTop.svg);
+    position: absolute;
+    top: -320px;
+    display: block;
+    left: -330px;
+    z-index: 0;
+}
+
 @media (max-width: 1620px) {
     .sectionMenuHome {
         flex-direction: column;
