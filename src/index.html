@@ -19,8 +19,8 @@
 </nav>
 <section class="flex flex-col justify-end items-center h-screen w-full relative">
     <img src="./img/accueilHomme.jpg" class="absolute w-full h-full object-cover" alt="fondUniver">
-    <div class="traitHorizon absolute top-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10"></div>
-    <div class="traitHorizon absolute left-0 top-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-10"></div>
+    <div class="absolute top-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10 pointer-events-none"></div>
+    <div class="absolute left-0 top-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-10 pointer-events-none"></div>
     <div class="absolute left-16 top-1/4 w-72">
         <h1 class="text-white font-bold text-lg">
             Plateforme de Recherche et d'Innovation en Mécatronique Energie et Systèmes
@@ -30,26 +30,26 @@
         <button class="bg-[#C0C500] px-7 py-2 rounded-full text-white uppercase">NOTRE OFFRE</button>
         <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
     </div>
-    <div class="absolute -bottom-2 h-full w-full flex items-end">
+    <div class="absolute bottom-0 h-full w-full flex items-end">
         <img src="./img/bandeau_prime.svg" class="w-full h-auto" alt="vague multi couleur">
     </div>
     <div class="absolute -bottom-36 flex items-end">
         <img src="./img/homeRond.svg" class="h-56" alt="vague multi couleur">
     </div>
 </section>
-<section class="h-auto block py-10 pt-36 relative overflow-hidden">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-50"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50"></div>
-    <div class="splide h-auto xl:block flex justify-center items-center flex-col">
+<section class="h-auto block relative overflow-hidden">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="splide py-10 pt-36 h-auto xl:block flex justify-center items-center flex-col">
         <div class="absolute w-full h-full flex justify-center items-center">
-            <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover" alt="fond slider">
+            <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[1px] border-gray-400" alt="fond slider">
         </div>
         <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block">
             <div class="absolute w-full h-full flex justify-center items-center">
-                <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover" alt="fond slider">
+                <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[1px] border-gray-400" alt="fond slider">
             </div>
         </div>
-        <div class="absolute xl:left-1/4 xl:top-20 flex flex-col z-50 justify-center items-center blocBoutonSlider">
+        <div class="absolute xl:left-1/4 xl:top-32 flex flex-col z-50 justify-center items-center blocBoutonSlider">
             <h2 class="text-black font-bold text-5xl -rotate-90 relative right-1.5">
                 A la <span class="text-[#C0C500]">une</span>
             </h2>
@@ -144,6 +144,8 @@
     </div>
 </section>
 <section class="flex justify-center items-center sectionColabo py-16 md:py-28 lg:py-64 overflow-hidden sectionEcosys relative">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
     <div class="hidden lg:flex justify-start items-center absolute w-full h-full pointer-events-none">
         <img src="./img/liaison.svg" alt="liaison entre deux section" class="absolute z-10 pointer-events-none h-full w-3/4">
     </div>
@@ -182,88 +184,94 @@
         </div>
     </div>
 </section>
-<section class="flex justify-center items-center py-16 md:py-56 relative min-h-96 flex-wrap mx-40 z-20 sectionMenuHome">
-    <div class="flex-col flex w-1/4 items-end blocTextMenu">
-        <h3 class="text-black text-4xl font-bold">
-            Notre <span class="text-[#C0C500]">expertise</span> et nos <span class="text-[#C0C500]">moyens techniques</span> à votre service
-        </h3>
-        <div class="z-30 mt-10">
-            <button class="px-10 py-3 bg-[#C0C500] text-white rounded-3xl pr-16 relative button">EN SAVOIR PLUS</button>
+<section class="relative">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="flex justify-center items-center py-16 md:py-56 relative min-h-96 flex-wrap mx-40 z-20 sectionMenuHome">
+        <div class="flex-col flex w-1/4 items-end blocTextMenu">
+            <h3 class="text-black text-4xl font-bold">
+                Notre <span class="text-[#C0C500]">expertise</span> et nos <span class="text-[#C0C500]">moyens techniques</span> à votre service
+            </h3>
+            <div class="z-30 mt-10">
+                <button class="px-10 py-3 bg-[#C0C500] text-white rounded-3xl pr-16 relative button">EN SAVOIR PLUS</button>
+            </div>
         </div>
-    </div>
-    <div class="justify-center items-center w-2/4 relative blocMenuHome hidden md:flex ">
-        <div class="menuExpertise">
-            <div id="show-menu">
-                <div class="btn">
-                    <button id="toggleMenuExpertise" class="h-full w-full absolute flex justify-center items-center z-10" aria-expanded="false" aria-controls="menu-items">
-                        <span class="toggleBtn menuBtn text-[#383838] text-7xl animate-bounce show" aria-hidden="false">+</span>
-                        <span class="toggleBtn closeBtn text-[#383838] text-7xl" aria-hidden="true">-</span>
-                    </button>
+        <div class="justify-center items-center w-2/4 relative blocMenuHome hidden md:flex ">
+            <div class="menuExpertise">
+                <div id="show-menu">
+                    <div class="btn">
+                        <button id="toggleMenuExpertise" class="h-full w-full absolute flex justify-center items-center z-10" aria-expanded="false" aria-controls="menu-items">
+                            <span class="toggleBtn menuBtn text-[#383838] text-7xl animate-bounce show" aria-hidden="false">+</span>
+                            <span class="toggleBtn closeBtn text-[#383838] text-7xl" aria-hidden="true">-</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="menu-items">
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
+                    </div>
+                    <div class="btn btnItems">
+                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
+                    </div>
                 </div>
             </div>
 
-            <div id="menu-items">
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
-                </div>
-                <div class="btn btnItems">
-                    <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
-                </div>
-            </div>
         </div>
-
-    </div>
-    <div class="flex justify-center items-center flex-col gap-5 md:hidden">
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
-        </a>
-        <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
-        <a>
-            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
-        </a>
+        <div class="flex justify-center items-center flex-col gap-5 md:hidden">
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
+            </a>
+            <div class="w-1/2 h-[2px] bg-[#C0C500]"></div>
+            <a>
+                <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
+            </a>
+        </div>
     </div>
 </section>
 <section class="flex justify-center items-center sectionColabo md:pt-20 z-10 relative pb-10 bg-[#F2F2F2]">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
     <img src="./img/back3Card.jpg" class="object-cover h-2/4 w-full absolute top-0" alt="galaxie">
     <div class="py-10 md:py-32 z-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 hover:bg-[#3A3D6A] first3card relative z-10">
+                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 hover:bg-[#3A3D6A] first3card relative z-10 blocCardPicto1">
                     <a href="#">
                         <img class="h-52 w-52" src="./img/papierColor.svg" alt="" />
                     </a>
@@ -276,7 +284,7 @@
                     </div>
                 </div>
 
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20">
+                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 blocCardPicto2">
                     <a href="#">
                         <img class="h-52 w-52" src="./img/pouceMultiColor.svg" alt="" />
                     </a>
@@ -289,7 +297,7 @@
                     </div>
                 </div>
 
-                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 last3card relative z-10">
+                <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 last3card relative z-10 blocCardPicto3">
                     <a href="#">
                         <img class="h-52 w-52" src="./img/calculaColor.svg" alt="" />
                     </a>
@@ -306,13 +314,17 @@
     </div>
 </section>
 <section class="flex relative bg-[#F2F2F2]">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
     <div class="overflow-hidden whitespace-nowrap w-full containerDefilement">
         <h3 class="defilement text-7xl font-bold text-gray-400 w-fit flex items-center" id="textDefilement">
             INNOVATION <span class="text-3xl mx-16">|</span> COMPÉTITIVITÉ <span class="text-3xl mx-16">|</span> COLLABORATION
         </h3>
     </div>
 </section>
-<section class="flex z-10 py-16 items-center justify-center bg-[#F2F2F2]">
+<section class="flex py-16 items-center justify-center bg-[#F2F2F2] relative">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
     <div class="flex justify-center items-center flex-col lg:flex-row text-center lg:text-left">
         <h4 class="text-black text-4xl font-bold">
             Un <span class="text-[#C0C500]">besoin spécifique,</span> une question ?
@@ -323,7 +335,9 @@
     </div>
 </section>
 <footer class="flex flex-col">
-    <div class="flex justify-center items-center gap-8 w-full py-16 bg-white flex-wrap">
+    <div class="flex justify-center items-center gap-8 w-full py-16 bg-white flex-wrap relative">
+        <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
+        <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
         <img src="./img/Groupe%209.png" alt="beer">
         <img src="./img/LGP.png" alt="beer">
         <img src="./img/ETAT.png" alt="beer">

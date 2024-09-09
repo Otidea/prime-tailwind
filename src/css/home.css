@@ -312,7 +312,6 @@ body{
 }
 
 .defilement {
-    display: inline-block;
     white-space: nowrap;
     animation: defilement 10s linear infinite;
     animation-timing-function: linear;
@@ -363,11 +362,6 @@ body{
     right: -2px;
     top: -3px;
 }
-
-.fondSlider{
-
-}
-
 
 @media (max-width: 1620px) {
     .sectionMenuHome {

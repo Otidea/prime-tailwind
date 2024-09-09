@@ -37,3 +37,38 @@ function adjustAnimationDuration() {
 
 window.onload = adjustAnimationDuration;
 window.onresize = adjustAnimationDuration;
+
+//HOVER IMAGE 3 CARD -----------------
+const card1 = document.querySelector('.blocCardPicto1');
+const card2 = document.querySelector('.blocCardPicto2');
+const card3 = document.querySelector('.blocCardPicto3');
+
+card1.addEventListener('mouseenter', function() {
+    const img = card1.querySelector('img');
+    img.src = './img/papierBlanc.svg';
+});
+
+card1.addEventListener('mouseleave', function() {
+    const img = card1.querySelector('img');
+    img.src = './img/papierColor.svg';
+});
+
+card2.addEventListener('mouseenter', function() {
+    const img = card2.querySelector('img');
+    img.src = './img/pouceBlanc.svg';
+});
+
+card2.addEventListener('mouseleave', function() {
+    const img = card2.querySelector('img');
+    img.src = './img/pouceMultiColor.svg';
+});
+
+card3.addEventListener('mouseenter', function() {
+    const img = card3.querySelector('img');
+    img.src = './img/calculaBlanc.svg';
+});
+
+card3.addEventListener('mouseleave', function() {
+    const img = card3.querySelector('img');
+    img.src = './img/calculaColor.svg';
+});
