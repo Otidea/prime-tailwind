@@ -18,13 +18,15 @@
     </div>
 </nav>
 <section class="flex flex-col justify-end items-center h-screen w-full relative">
-    <img src="./img/fondHome.jpg" class="absolute w-full h-full object-cover" alt="fondUniver">
+    <img src="./img/accueilHomme.jpg" class="absolute w-full h-full object-cover" alt="fondUniver">
+    <div class="traitHorizon absolute top-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10"></div>
+    <div class="traitHorizon absolute left-0 top-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-10"></div>
     <div class="absolute left-16 top-1/4 w-72">
         <h1 class="text-white font-bold text-lg">
             Plateforme de Recherche et d'Innovation en Mécatronique Energie et Systèmes
         </h1>
     </div>
-    <div class="flex justify-center items-center gap-5 z-10 mb-40">
+    <div class="flex justify-center items-center gap-5 z-10 mb-40 relative sm:left-3">
         <button class="bg-[#C0C500] px-7 py-2 rounded-full text-white uppercase">NOTRE OFFRE</button>
         <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
     </div>
@@ -36,8 +38,17 @@
     </div>
 </section>
 <section class="h-auto block py-10 pt-36 relative overflow-hidden">
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-50"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50"></div>
     <div class="splide h-auto xl:block flex justify-center items-center flex-col">
-        <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block"></div>
+        <div class="absolute w-full h-full flex justify-center items-center">
+            <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover" alt="fond slider">
+        </div>
+        <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block">
+            <div class="absolute w-full h-full flex justify-center items-center">
+                <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover" alt="fond slider">
+            </div>
+        </div>
         <div class="absolute xl:left-1/4 xl:top-20 flex flex-col z-50 justify-center items-center blocBoutonSlider">
             <h2 class="text-black font-bold text-5xl -rotate-90 relative right-1.5">
                 A la <span class="text-[#C0C500]">une</span>
@@ -254,34 +265,40 @@
             <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 hover:bg-[#3A3D6A] first3card relative z-10">
                     <a href="#">
-                        <img class="h-36 w-36" src="./img/bulletin-de-vote.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/papierColor.svg" alt="" />
                     </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
+                    <div class="w-full mx-16 px-16">
+                        <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PRESTATIONS <br>À LA DEMANDE</h5>
                         </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20">
                     <a href="#">
-                        <img class="h-36 w-36" src="./img/main-tenant-ensemencement.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/pouceMultiColor.svg" alt="" />
                     </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        </a>
+                    <div class="w-full mx-16 px-16">
+                        <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
+                            <a href="#" class="w-full">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white w-full">AVANTAGES <br>MEMBRES</h5>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 last3card relative z-10">
                     <a href="#">
-                        <img class="h-36 w-36" src="./img/mobile-encoche.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/calculaColor.svg" alt="" />
                     </a>
-                    <div class="border-t border-[#BAC202] mt-7 mx-16 py-5 bordurePicto">
+                    <div class="w-full mx-16 px-16">
+                        <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
                         <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CRÉDIT D'IMPÔT <br>CIR CIRCO</h5>
                         </a>
+                        </div>
                     </div>
                 </div>
             </div>
