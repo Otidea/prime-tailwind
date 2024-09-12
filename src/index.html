@@ -19,16 +19,16 @@
 </nav>
 <section class="flex flex-col justify-end items-center h-screen w-full relative">
     <img src="./img/accueilHomme.jpg" class="absolute w-full h-full object-cover" alt="fondUniver">
-    <div class="absolute top-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10 pointer-events-none"></div>
-    <div class="absolute left-0 top-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-10 pointer-events-none"></div>
+    <div class="absolute top-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10 pointer-events-none hidden lg:block"></div>
+    <div class="absolute left-0 top-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 z-10 pointer-events-none hidden lg:block"></div>
     <div class="absolute left-16 top-1/4 w-72">
         <h1 class="text-white font-bold text-lg">
             Plateforme de Recherche et d'Innovation en Mécatronique Energie et Systèmes
         </h1>
     </div>
-    <div class="flex justify-center items-center gap-5 z-10 mb-40 relative sm:left-3">
-        <button class="bg-[#C0C500] px-7 py-2 rounded-full text-white uppercase">NOTRE OFFRE</button>
-        <button class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase">NOUS REJOINDRE</button>
+    <div class="flex justify-center items-center gap-5 z-10 mb-40 relative sm:left-3 flex-col sm:flex-row">
+        <a href="#" class="bg-[#C0C500] px-7 py-2 rounded-full text-white uppercase hover:bg-[#F8D214] ease-in-out duration-300">NOTRE OFFRE</a>
+        <a href="#" class="bg-[#E58406] px-7 py-2 rounded-full text-white uppercase hover:bg-[#F8D214] ease-in-out duration-300">NOUS REJOINDRE</a>
     </div>
     <div class="absolute bottom-0 h-full w-full flex items-end">
         <img src="./img/bandeau_prime.svg" class="w-full h-auto" alt="vague multi couleur">
@@ -38,15 +38,17 @@
     </div>
 </section>
 <section class="h-auto block relative overflow-hidden">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
     <div class="splide py-10 pt-36 h-auto xl:block flex justify-center items-center flex-col">
         <div class="absolute w-full h-full flex justify-center items-center">
-            <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[1px] border-gray-400" alt="fond slider">
+            <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[0px] lg:border-b-[1px] border-gray-400" alt="fond slider">
+        </div>
+        <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block -top-5">
         </div>
         <div class="absolute left-0 h-full w-1/4 bg-white z-40 hidden xl:block">
             <div class="absolute w-full h-full flex justify-center items-center">
-                <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[1px] border-gray-400" alt="fond slider">
+                <img src="./img/fondSlider.svg" class="fondSlider absolute h-72 w-full object-cover border-b-[0px] lg:border-b-[1px] border-gray-400" alt="fond slider">
             </div>
         </div>
         <div class="absolute xl:left-1/4 xl:top-32 flex flex-col z-50 justify-center items-center blocBoutonSlider">
@@ -65,13 +67,19 @@
         <div class="splide__track h-auto">
             <ul class="splide__list h-auto">
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10 relative">
+                        <div class="absolute -top-11 md:-top-16 -left-4 md:-left-3 z-30">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="261.382" height="223.739" viewBox="0 0 261.382 223.739" class="w-[165px] h-[165px] md:w-[261px] md:h-[261px]">
+                                <path id="Tracé_143" data-name="Tracé 143" d="M-650,2249.087a19.956,19.956,0,0,1-7.055-1.292c-130.289-49.144-224.789-1.449-225.729-.961a20,20,0,0,1-26.965-8.539,20,20,0,0,1,8.539-26.965c4.482-2.326,111.463-56.335,258.271-.961a20,20,0,0,1,11.655,25.771A20.008,20.008,0,0,1-650,2249.087Z" transform="matrix(0.788, -0.616, 0.616, 0.788, -626.852, -2110.052)" fill="#ffd200"/>
+                            </svg>
+                            <span class="absolute text-4xl md:text-6xl text-black font-bold left-10 top-10 md:top-12 md:left-16">01</span>
+                        </div>
                         <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-bleu.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0 blocTextSlider">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -80,13 +88,19 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10 relative">
+                        <div class="absolute -top-11 md:-top-16 -left-4 md:-left-3 z-30">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="261.382" height="223.739" viewBox="0 0 261.382 223.739" class="w-[165px] h-[165px] md:w-[261px] md:h-[261px]">
+                                <path id="Tracé_143" data-name="Tracé 143" d="M-650,2249.087a19.956,19.956,0,0,1-7.055-1.292c-130.289-49.144-224.789-1.449-225.729-.961a20,20,0,0,1-26.965-8.539,20,20,0,0,1,8.539-26.965c4.482-2.326,111.463-56.335,258.271-.961a20,20,0,0,1,11.655,25.771A20.008,20.008,0,0,1-650,2249.087Z" transform="matrix(0.788, -0.616, 0.616, 0.788, -626.852, -2110.052)" fill="#E58406"/>
+                            </svg>
+                            <span class="absolute text-4xl md:text-6xl text-black font-bold left-10 top-10 md:top-12 md:left-16">02</span>
+                        </div>
                         <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie.png" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0 blocTextSlider">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -95,13 +109,19 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10 relative">
+                        <div class="absolute -top-11 md:-top-16 -left-4 md:-left-3 z-30">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="261.382" height="223.739" viewBox="0 0 261.382 223.739" class="w-[165px] h-[165px] md:w-[261px] md:h-[261px]">
+                                <path id="Tracé_143" data-name="Tracé 143" d="M-650,2249.087a19.956,19.956,0,0,1-7.055-1.292c-130.289-49.144-224.789-1.449-225.729-.961a20,20,0,0,1-26.965-8.539,20,20,0,0,1,8.539-26.965c4.482-2.326,111.463-56.335,258.271-.961a20,20,0,0,1,11.655,25.771A20.008,20.008,0,0,1-650,2249.087Z" transform="matrix(0.788, -0.616, 0.616, 0.788, -626.852, -2110.052)" fill="#23A137"/>
+                            </svg>
+                            <span class="absolute text-4xl md:text-6xl text-black font-bold left-10 top-10 md:top-12 md:left-16">03</span>
+                        </div>
                         <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-2.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0 blocTextSlider">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -110,13 +130,19 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10 relative">
+                        <div class="absolute -top-11 md:-top-16 -left-4 md:-left-3 z-30">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="261.382" height="223.739" viewBox="0 0 261.382 223.739" class="w-[165px] h-[165px] md:w-[261px] md:h-[261px]">
+                                <path id="Tracé_143" data-name="Tracé 143" d="M-650,2249.087a19.956,19.956,0,0,1-7.055-1.292c-130.289-49.144-224.789-1.449-225.729-.961a20,20,0,0,1-26.965-8.539,20,20,0,0,1,8.539-26.965c4.482-2.326,111.463-56.335,258.271-.961a20,20,0,0,1,11.655,25.771A20.008,20.008,0,0,1-650,2249.087Z" transform="matrix(0.788, -0.616, 0.616, 0.788, -626.852, -2110.052)" fill="#3A3D6A"/>
+                            </svg>
+                            <span class="absolute text-4xl md:text-6xl text-black font-bold left-10 top-10 md:top-12 md:left-16">04</span>
+                        </div>
                         <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-3.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0 blocTextSlider">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -125,13 +151,19 @@
                     </div>
                 </li>
                 <li class="splide__slide flex justify-center items-center h-auto relative flex-col">
-                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10">
+                    <div class="cercle1 flex justify-center items-center h-[350px] w-[350px] md:h-[630px] md:w-[630px] rounded-full z-10 relative">
+                        <div class="absolute -top-11 md:-top-16 -left-4 md:-left-3 z-30">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="261.382" height="223.739" viewBox="0 0 261.382 223.739"class="w-[165px] h-[165px] md:w-[262px] md:h-[262px]">
+                                <path id="Tracé_143" data-name="Tracé 143" d="M-650,2249.087a19.956,19.956,0,0,1-7.055-1.292c-130.289-49.144-224.789-1.449-225.729-.961a20,20,0,0,1-26.965-8.539,20,20,0,0,1,8.539-26.965c4.482-2.326,111.463-56.335,258.271-.961a20,20,0,0,1,11.655,25.771A20.008,20.008,0,0,1-650,2249.087Z" transform="matrix(0.788, -0.616, 0.616, 0.788, -626.852, -2110.052)" fill="#C0C500"/>
+                            </svg>
+                            <span class="absolute text-4xl md:text-6xl text-black font-bold left-10 top-10 md:top-12 md:left-16">05</span>
+                        </div>
                         <div class="cercle2 flex justify-center items-center h-[340px] w-[340px] md:h-[620px] md:w-[620px] rounded-full bg-white z-20">
                             <img class="z-30 rounded-full object-cover h-[300px] w-[300px] md:w-[580px] md:h-[580px]" src="./img/galaxie-4.jpg" alt="galaxie bleu">
                         </div>
                     </div>
                     <div class="flex w-full h-full justify-center items-center xl:justify-end xl:items-end relative xl:absolute">
-                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0">
+                        <div class="flex justify-center items-center relative md:absolute z-40 bg-white bg-opacity-60 p-3 rounded-3xl bottom-0 blocTextSlider">
                             <div class="flex justify-center items-center flex-col bg-[#3A3D6A] w-80 h-fit rounded-3xl p-5">
                                 <h3 class="text-white font-bold text-xl">JIJIQDZ IDQJIDZIQ QD IDQJ IOQ</h3>
                                 <p class="text-white">ZDIQJUDQ QZDUJQ JUUQHUU DJJA AHAE</p>
@@ -144,13 +176,14 @@
     </div>
 </section>
 <section class="flex justify-center items-center sectionColabo py-16 md:py-28 lg:py-64 overflow-hidden sectionEcosys relative">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute bottom-0 w-full h-28 border-b-[1px] border-gray-400 opacity-50 z-10 pointer-events-none hidden lg:block"></div>
     <div class="hidden lg:flex justify-start items-center absolute w-full h-full pointer-events-none">
         <img src="./img/liaison.svg" alt="liaison entre deux section" class="absolute z-10 pointer-events-none h-full w-3/4">
     </div>
-    <div class="flex flex-col justify-center items-center lg:justify-end lg:items-end blocTextEcosys rounded-2xl p-5 lg:p-32 max-w-6xl relative">
-        <div class="flex flex-col w-full justify-start items-start z-10">
+    <div class="flex flex-col justify-center items-center lg:justify-end lg:items-end blocTextEcosys rounded-2xl p-5 py-10 lg:py-32 lg:p-32 max-w-6xl relative mx-2 xl:mx-0">
+        <div class="flex flex-col w-full justify-start items-start z-10 titreEcosys">
             <h3 class="text-3xl lg:text-4xl font-bold text-center lg:text-left w-full">Un <span class="text-[#C0C500]">écosystème collaboratif</span></h3>
             <h4 class="text-3xl lg:text-4xl font-bold relative text-center lg:text-left">pour les défis de l'Electronique de Puissance, la Conversation et le Management de l'Energie</h4>
         </div>
@@ -179,21 +212,21 @@
                 </p>
             </div>
         </div>
-        <div class="absolute right-inherit lg:right-1/5 -bottom-10 lg:-bottom-5 z-30">
-            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl pr-16 relative button">EN SAVOIR PLUS</button>
+        <div class="absolute right-inherit lg:right-1/5 -bottom-5 z-30">
+            <a href="#" class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl pr-16 relative buttonFleche corectifFleche hover:bg-[#F8D214] ease-in-out duration-300">EN SAVOIR PLUS</a>
         </div>
     </div>
 </section>
 <section class="relative">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
     <div class="flex justify-center items-center py-16 md:py-56 relative min-h-96 flex-wrap mx-40 z-20 sectionMenuHome">
-        <div class="flex-col flex w-1/4 items-end blocTextMenu">
+        <div class="flex-col flex w-1/4 items-end blocTextMenu mt-5 lg:mt-0">
             <h3 class="text-black text-4xl font-bold">
                 Notre <span class="text-[#C0C500]">expertise</span> et nos <span class="text-[#C0C500]">moyens techniques</span> à votre service
             </h3>
             <div class="z-30 mt-10">
-                <button class="px-10 py-3 bg-[#C0C500] text-white rounded-3xl pr-16 relative button">EN SAVOIR PLUS</button>
+                <a href="#" class="px-10 py-3 bg-[#C0C500] text-white rounded-3xl pr-16 relative buttonFleche corectifFleche hover:bg-[#F8D214] ease-in-out duration-300">EN SAVOIR PLUS</a>
             </div>
         </div>
         <div class="justify-center items-center w-2/4 relative blocMenuHome hidden md:flex ">
@@ -209,25 +242,39 @@
 
                 <div id="menu-items">
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Conception & Simulation</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Prototypage & Assemblage</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Caractérisations</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Essais électriques forte puissance</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Fiabilité Vieillissement</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Contrôle Non Destructif</span>
+                        </a>
                     </div>
                     <div class="btn btnItems">
-                        <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
+                        <a class="z-30">
+                            <span class="text-[#383838] flex justify-center items-center text-center font-bold text-xl">Plateforme expérimentale Smart Grid</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -265,15 +312,16 @@
     </div>
 </section>
 <section class="flex justify-center items-center sectionColabo md:pt-20 z-10 relative pb-10 bg-[#F2F2F2]">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute top-0 w-full h-28 border-t-[1px] border-gray-400 opacity-50 z-10 pointer-events-none hidden lg:block"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none top-0 hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none top-0 hidden lg:block"></div>
     <img src="./img/back3Card.jpg" class="object-cover h-2/4 w-full absolute top-0" alt="galaxie">
     <div class="py-10 md:py-32 z-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 hover:bg-[#3A3D6A] first3card relative z-10 blocCardPicto1">
                     <a href="#">
-                        <img class="h-52 w-52" src="./img/papierColor.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/papierColor.svg" alt="">
                     </a>
                     <div class="w-full mx-16 px-16">
                         <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
@@ -286,7 +334,7 @@
 
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 blocCardPicto2">
                     <a href="#">
-                        <img class="h-52 w-52" src="./img/pouceMultiColor.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/pouceMultiColor.svg" alt="">
                     </a>
                     <div class="w-full mx-16 px-16">
                         <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
@@ -299,7 +347,7 @@
 
                 <div class="blocCardPicto flex justify-center items-center flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 pt-20 last3card relative z-10 blocCardPicto3">
                     <a href="#">
-                        <img class="h-52 w-52" src="./img/calculaColor.svg" alt="" />
+                        <img class="h-52 w-52" src="./img/calculaColor.svg" alt="">
                     </a>
                     <div class="w-full mx-16 px-16">
                         <div class="border-t border-[#BAC202] py-5 w-full bordurePicto">
@@ -314,8 +362,8 @@
     </div>
 </section>
 <section class="flex relative bg-[#F2F2F2]">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
     <div class="overflow-hidden whitespace-nowrap w-full containerDefilement">
         <h3 class="defilement text-7xl font-bold text-gray-400 w-fit flex items-center" id="textDefilement">
             INNOVATION <span class="text-3xl mx-16">|</span> COMPÉTITIVITÉ <span class="text-3xl mx-16">|</span> COLLABORATION
@@ -323,26 +371,37 @@
     </div>
 </section>
 <section class="flex py-16 items-center justify-center bg-[#F2F2F2] relative">
-    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
+    <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
     <div class="flex justify-center items-center flex-col lg:flex-row text-center lg:text-left">
         <h4 class="text-black text-4xl font-bold">
             Un <span class="text-[#C0C500]">besoin spécifique,</span> une question ?
         </h4>
         <div class="mx-7 mt-5 lg:mt-0">
-            <button class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl pr-16 relative button">NOUS CONTACTER</button>
+            <a href="#" class="px-10 py-3 bg-[#3A3D6A] text-white rounded-3xl pr-16 corectifFleche relative buttonFleche hover:bg-[#F8D214] ease-in-out duration-300">NOUS CONTACTER</a>
         </div>
     </div>
 </section>
 <footer class="flex flex-col">
     <div class="flex justify-center items-center gap-8 w-full py-16 bg-white flex-wrap relative">
-        <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 xl:z-50 pointer-events-none"></div>
-        <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none"></div>
-        <img src="./img/Groupe%209.png" alt="beer">
-        <img src="./img/LGP.png" alt="beer">
-        <img src="./img/ETAT.png" alt="beer">
-        <img src="./img/OCCITANIE.png"  alt="beer">
-        <img src="./img/CRT_hz_RVB.png"  alt="beer">
+        <div class="absolute left-0 w-40 h-full border-r-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
+        <div class="absolute right-0 w-40 h-full border-l-[1px] border-gray-400 opacity-50 pointer-events-none hidden lg:block"></div>
+        <a href="https://www.uttop.fr/fr/index.html" target="_blank">
+            <img src="./img/Groupe%209.png" alt="Université de technologie Tarbes Occitanie Pyrénées" class="z-10">
+        </a>
+        <a href="https://www.lgp.enit.fr/fr/lgp.html" target="_blank">
+            <img src="./img/LGP.png" alt="Laboratoire Génie de production" class="z-10">
+        </a>
+        <a href="https://www.info.gouv.fr/" target="_blank">
+            <img src="./img/ETAT.png" alt="Etat français" class="z-10">
+        </a>
+        <a href="https://www.laregion.fr/" target="_blank">
+            <img src="./img/OCCITANIE.png"  alt="Région occitanie" class="z-10">
+
+        </a>
+        <a href="https://esr-islabel.adc.education.fr/label-crt" target="_blank">
+            <img src="./img/CRT_hz_RVB.png"  alt="Centre de ressources technologiques" class="z-10">
+        </a>
     </div>
     <div class="bg-[#383838] flex flex-col justify-center items-center rounded-t-2xl">
         <img src="./img/footerlogo.svg" alt="logoFooter" class="w-[350px]">
@@ -354,14 +413,14 @@
                         <p class="text-white">65000 TARBES</p>
                     </div>
                     <div class="flex flex-col w-fit">
-                        <p class="text-white font-bold">Plateforme PRIMES : <span class="text-[#C0C500]"><a>+33 (0)5 62 96 29 28</a></span></p>
-                        <p class="text-white font-bold text-wrap sm:text-nowrap">Association des industriels de la plateforme PRIMES : <span class="text-[#C0C500]"><a>+33 (0)5 62 96 29 27</a></span></p>
+                        <p class="text-white font-bold">Plateforme PRIMES : <span class="text-[#C0C500]"><a href="tel:+330562962928">+33 (0)5 62 96 29 28</a></span></p>
+                        <p class="text-white font-bold text-wrap sm:text-nowrap">Association des industriels de la plateforme PRIMES : <span class="text-[#C0C500]"><a href="tel:+330562962927">+33 (0)5 62 96 29 27</a></span></p>
                     </div>
                 </div>
             </div>
             <div class="flex flex-col justify-center items-center z-10 w-full sm:w-1/2 gap-10">
                 <div class="flex gap-3 flex-col justify-center items-center sm:flex-row">
-                    <button class="px-10 py-3 bg-[#E58406] text-white rounded-3xl pr-16 relative button">NOUS CONTACTER</button>
+                    <a href="#" class="px-10 py-3 bg-[#E58406] text-white rounded-3xl pr-16 relative buttonFleche hover:bg-[#F8D214] ease-in-out duration-300">NOUS CONTACTER</a>
                     <a class="bg-[#73A219] rounded-full h-[50px] w-[50px] flex justify-center items-center"><i class="fa-brands fa-linkedin-in text-2xl text-white"></i></a>
                 </div>
                 <div class="flex">

@@ -23,9 +23,10 @@ function adjustAnimationDuration() {
     const textWidth = text.offsetWidth;
     const containerWidth = container.offsetWidth;
     let duration = 0;
-    if (window.screen.availWidth > 1600){
+    if (window.screen.availWidth > 2000){
+        duration = (textWidth / containerWidth) * 20;
+    }else if (window.screen.availWidth > 1600) {
         duration = (textWidth / containerWidth) * 15;
-
     }else if (window.screen.availWidth > 1000){
         duration = (textWidth / containerWidth) * 10;
     }else{

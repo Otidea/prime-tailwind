@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="126" viewBox="0 0 126 126">
+  <defs>
+    <filter id="bg_btn" x="0" y="0" width="126" height="126" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn_fleche" transform="translate(5138.5 -497.5) rotate(90)">
+    <g transform="matrix(0, -1, 1, 0, 497.5, 5138.5)" filter="url(#bg_btn)">
+      <circle id="bg_btn-2" data-name="bg_btn" cx="43.5" cy="43.5" r="43.5" transform="translate(106.5 19.5) rotate(90)" fill="#fff"/>
+    </g>
+    <path id="flèche" d="M2.186,33.5A2.185,2.185,0,0,1,.641,29.774l25.4-25.4H2.186a2.185,2.185,0,0,1,0-4.37H31.313a.111.111,0,0,1,.043,0h0a2.186,2.186,0,0,1,1.5.632h0l0,0,0,0h0l0,0,0,0v0a2.186,2.186,0,0,1,.468.7,2.135,2.135,0,0,1,.164.8v29.17a2.185,2.185,0,1,1-4.369,0V7.461l-25.4,25.4a2.175,2.175,0,0,1-1.543.64" transform="translate(543.219 5058.219)" fill="#383838"/>
+  </g>
+</svg>
