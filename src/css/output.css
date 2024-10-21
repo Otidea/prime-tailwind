@@ -554,40 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .pointer-events-none {
   pointer-events: none;
 }
@@ -709,11 +675,6 @@ video {
   margin-right: auto;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -748,10 +709,6 @@ video {
 
 .h-2\/4 {
   height: 50%;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-28 {
@@ -815,6 +772,10 @@ video {
   height: 100vh;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .min-h-96 {
   min-height: 24rem;
 }
@@ -831,8 +792,8 @@ video {
   width: 50%;
 }
 
-.w-24 {
-  width: 6rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-3\/4 {
@@ -882,6 +843,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .max-w-2xl {
@@ -1105,6 +1070,26 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#005078\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 80 120 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#45db96\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 219 150 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ff99d6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 153 214 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#129a7e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 154 126 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -1292,6 +1277,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#45db96\] {
+  --tw-text-opacity: 1;
+  color: rgb(69 219 150 / var(--tw-text-opacity));
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -1318,6 +1308,11 @@ video {
 .hover\:bg-\[\#F8D214\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(248 210 20 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#005078\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 80 120 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1454,10 +1449,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:-left-\[50px\] {
-    left: -50px;
-  }
-
   .lg\:-left-\[20px\] {
     left: -20px;
   }
@@ -1545,6 +1536,10 @@ video {
     position: absolute;
   }
 
+  .xl\:-left-\[50px\] {
+    left: -50px;
+  }
+
   .xl\:left-1\/4 {
     left: 25%;
   }
@@ -1555,10 +1550,6 @@ video {
 
   .xl\:top-\[75px\] {
     top: 75px;
-  }
-
-  .xl\:-left-\[50px\] {
-    left: -50px;
   }
 
   .xl\:z-50 {

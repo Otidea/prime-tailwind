@@ -2,12 +2,16 @@ body{
     overflow-x: hidden;
 }
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .degraderBar{
-    background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #129A7E 0%, #45DB96 18%, #F5D836 38%, #FF99D6 59%, #0586DD 80%, #005078 100%) 0% 0% no-repeat padding-box;
 }
 
 .degraderFooter{
-    background: transparent linear-gradient(90deg, #23A137 0%, #66AF2E 18%, #F8D214 38%, #F5E9A9 59%, #E9BB69 80%, #E5A106 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #129A7E 0%, #45DB96 18%, #F5D836 38%, #FF99D6 59%, #0586DD 80%, #005078 100%) 0% 0% no-repeat padding-box;
 }
 
 .splide__slide{
@@ -27,7 +31,7 @@ body{
     -ms-flex-align: center;
     align-items: center;
     background: white;
-    border: #C0C500 1px solid;
+    border: #45db96 1px solid;
     border-radius: 50%;
     cursor: pointer;
     display: -ms-flexbox;
@@ -55,12 +59,12 @@ body{
 }
 
 .splide .splide__pagination__page.is-active {
-    background: #C0C500;
+    background: #45db96;
 }
 
 .splide .splide__pagination__page {
     background: white;
-    border: solid 1px #C0C500;
+    border: solid 1px #45db96;
     transform: scale(1.4);
 }
 
@@ -87,7 +91,7 @@ body{
     width: 60px;
     height: 11px;
     border-radius: 50px;
-    background: #73A219;
+    background: #129a7e;
     content: "";
     position: absolute;
     left: 0;
@@ -294,7 +298,7 @@ body{
 }
 
 .blocCardPicto:hover{
-    background: #3A3D6A;
+    background: #005078;
     transition: 0.3s;
 }
 
@@ -367,7 +371,9 @@ body{
     align-items: center;
     position: absolute;
     right: -2px;
-    top: -3px;
+    top: -1px;
+    width: 50px;
+    height: 50px;
 }
 
 h1{
