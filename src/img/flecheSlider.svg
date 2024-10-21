@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="126" viewBox="0 0 126 126">
-  <defs>
-    <filter id="bg_btn" x="0" y="0" width="126" height="126" filterUnits="userSpaceOnUse">
-      <feOffset input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="6.5" result="blur"/>
-      <feFlood flood-opacity="0.051"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="btn_fleche" transform="translate(5138.5 -497.5) rotate(90)">
-    <g transform="matrix(0, -1, 1, 0, 497.5, 5138.5)" filter="url(#bg_btn)">
-      <circle id="bg_btn-2" data-name="bg_btn" cx="43.5" cy="43.5" r="43.5" transform="translate(106.5 19.5) rotate(90)" fill="#fff"/>
-    </g>
-    <path id="flèche" d="M2.186,33.5A2.185,2.185,0,0,1,.641,29.774l25.4-25.4H2.186a2.185,2.185,0,0,1,0-4.37H31.313a.111.111,0,0,1,.043,0h0a2.186,2.186,0,0,1,1.5.632h0l0,0,0,0h0l0,0,0,0v0a2.186,2.186,0,0,1,.468.7,2.135,2.135,0,0,1,.164.8v29.17a2.185,2.185,0,1,1-4.369,0V7.461l-25.4,25.4a2.175,2.175,0,0,1-1.543.64" transform="translate(543.219 5058.219)" fill="#383838"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.6, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 126 126" style="enable-background:new 0 0 126 126;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#005078;}
+</style>
+<g id="btn_fleche" transform="translate(5138.5 -497.5) rotate(90)">
+	<g transform="matrix(0, -1, 1, 0, 497.5, 5138.5)">
+		<circle id="bg_btn-2" class="st0" cx="63" cy="63" r="43.5"/>
+	</g>
+	<path id="flèche" class="st1" d="M545.4,5091.7c-1.2,0-2.2-1-2.2-2.2c0-0.6,0.2-1.1,0.6-1.5l25.4-25.4h-23.9c-1.2,0-2.2-1-2.2-2.2
+		s1-2.2,2.2-2.2h29.1c0,0,0,0,0,0l0,0c0.6,0,1.1,0.2,1.5,0.6l0,0l0,0l0,0l0,0l0,0l0,0l0,0c0.2,0.2,0.4,0.4,0.5,0.7
+		c0.1,0.3,0.2,0.5,0.2,0.8v29.2c0,1.2-0.9,2.2-2.1,2.2c-1.2,0-2.2-0.9-2.2-2.1c0,0,0-0.1,0-0.1v-23.8l-25.4,25.4
+		C546.5,5091.5,546,5091.7,545.4,5091.7"/>
+</g>
 </svg>

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.9.5, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
+<!-- Generator: Adobe Illustrator 27.9.6, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 537.5 319.9" style="enable-background:new 0 0 537.5 319.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:url(#Tracé_160_00000050650492368757304040000001955209443349699969_);}
-	.st1{fill:#FFD200;}
-	.st2{fill:url(#Ellipse_33-2_00000057116355306105882160000012502379184152486832_);}
-	.st3{fill:url(#Ellipse_34_00000083056053846630847700000011116633802178134685_);}
+	.st0{fill:url(#Tracé_160_00000013898446383840876600000006718635323993038977_);}
+	.st1{fill:#586DDD;}
+	.st2{fill:url(#Ellipse_33-2_00000026135305301505858500000002647358243852539322_);}
+	.st3{fill:url(#Ellipse_34_00000176009433969299058640000007834341105896227975_);}
 </style>
 <g id="Groupe_59" transform="translate(-904.75 -4151.695)">
 	
-		<linearGradient id="Tracé_160_00000000207036788989034350000015655646670043555725_" gradientUnits="userSpaceOnUse" x1="877.3065" y1="4740.7007" x2="877.3065" y2="4739.7656" gradientTransform="matrix(495.8013 0 0 -285 -433775.2812 1355304.875)">
-		<stop  offset="0" style="stop-color:#FFD200"/>
-		<stop  offset="1" style="stop-color:#C0C500"/>
+		<linearGradient id="Tracé_160_00000139995963132114927150000005307185103761382280_" gradientUnits="userSpaceOnUse" x1="1754.1128" y1="-7.2002" x2="1754.1128" y2="-6.2651" gradientTransform="matrix(495.8013 0 0 285 -868497.0625 6257.2485)">
+		<stop  offset="0.1899" style="stop-color:#586DDD"/>
+		<stop  offset="1" style="stop-color:#45DB96"/>
 	</linearGradient>
-	<path id="Tracé_160" style="fill:url(#Tracé_160_00000000207036788989034350000015655646670043555725_);" d="M1405.3,4471.6v-76
-		c0-12.4-3.1-21.5-9.3-27.1c-9-8.2-24-8.9-29-8.4l-0.8,0.1l-1,0h-338.9c-28.4,0-50-8.2-64-24.4c-17.2-19.9-16.2-44.1-15.5-50.9
-		v-61.2c0-10.2,8.3-18.5,18.5-18.5s18.5,8.3,18.5,18.5v63.6l-0.2,1.3c0,0-1.5,13.7,6.9,23.2c6.7,7.6,18.8,11.4,35.8,11.4h338.1
+	<path id="Tracé_160" style="fill:url(#Tracé_160_00000139995963132114927150000005307185103761382280_);" d="M1405.3,4471.6v-76
+		c0-12.4-3.1-21.5-9.3-27.1c-9-8.2-24-8.9-29-8.4l-0.8,0.1h-1h-338.9c-28.4,0-50-8.2-64-24.4c-17.2-19.9-16.2-44.1-15.5-50.9v-61.2
+		c0-10.2,8.3-18.5,18.5-18.5s18.5,8.3,18.5,18.5v63.6l-0.2,1.3c0,0-1.5,13.7,6.9,23.2c6.7,7.6,18.8,11.4,35.8,11.4h338.1
 		c6.6-0.5,35-1.4,56.2,17.8c9.9,8.9,21.6,25.6,21.6,54.7v76L1405.3,4471.6z"/>
 	<circle id="Ellipse_37" class="st1" cx="965" cy="4211.6" r="34"/>
 	<g id="Groupe_47" transform="translate(-700.043 1350.134)">
 		<g transform="matrix(1, 0, 0, 1, 1604.79, 2801.56)">
 			
-				<linearGradient id="Ellipse_33-2_00000135661990083221557910000008304378964286221976_" gradientUnits="userSpaceOnUse" x1="-32.5355" y1="588.7816" x2="-33.5065" y2="588.7695" gradientTransform="matrix(2.786072e-15 -45.5 -45.5 -2.786072e-15 26849.5293 -1442.864)">
+				<linearGradient id="Ellipse_33-2_00000174568667379770615960000013865551236823161519_" gradientUnits="userSpaceOnUse" x1="-66.2688" y1="-7.2746" x2="-67.2398" y2="-7.2624" gradientTransform="matrix(2.786072e-15 -45.5 45.5 2.786072e-15 391.0087 -2977.7278)">
 				<stop  offset="0" style="stop-color:#FFFFFF"/>
 				<stop  offset="1" style="stop-color:#E8E8E8"/>
 			</linearGradient>
 			
-				<circle id="Ellipse_33-2" style="fill:url(#Ellipse_33-2_00000135661990083221557910000008304378964286221976_);" cx="60.3" cy="60.2" r="22.8"/>
+				<circle id="Ellipse_33-2" style="fill:url(#Ellipse_33-2_00000174568667379770615960000013865551236823161519_);" cx="60.3" cy="60.2" r="22.8"/>
 		</g>
 		
-			<linearGradient id="Ellipse_34_00000026875214502925244750000001410723663069902015_" gradientUnits="userSpaceOnUse" x1="1570.4409" y1="3390.241" x2="1571.3658" y2="3390.241" gradientTransform="matrix(2.415126e-15 -39.442 -39.442 -2.415126e-15 135382.9375 64821.4062)">
+			<linearGradient id="Ellipse_34_00000041983673642426516680000008860757971537527727_" gradientUnits="userSpaceOnUse" x1="3140.6167" y1="-7.0817" x2="3141.5415" y2="-7.0817" gradientTransform="matrix(2.415126e-15 -39.442 39.442 2.415126e-15 1944.3156 126752.2812)">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>
 			<stop  offset="1" style="stop-color:#F5F5F5"/>
 		</linearGradient>
 		
-			<circle id="Ellipse_34" style="fill:url(#Ellipse_34_00000026875214502925244750000001410723663069902015_);" cx="1665" cy="2861.8" r="19.7"/>
+			<circle id="Ellipse_34" style="fill:url(#Ellipse_34_00000041983673642426516680000008860757971537527727_);" cx="1665" cy="2861.8" r="19.7"/>
 	</g>
 </g>
 </svg>

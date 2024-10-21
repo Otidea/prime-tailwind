@@ -1,36 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120.5" height="218.11" viewBox="0 0 120.5 218.11">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#c0c500"/>
-      <stop offset="0.749" stop-color="#73a219"/>
-      <stop offset="1" stop-color="#73a219"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="1" y1="0.536" x2="0.029" y2="0.548" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#e8e8e8"/>
-    </linearGradient>
-    <filter id="Ellipse_33" x="0" y="97.61" width="120.5" height="120.5" filterUnits="userSpaceOnUse">
-      <feOffset input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="12.5" result="blur"/>
-      <feFlood flood-opacity="0.071"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-3" x1="0.037" y1="0.5" x2="0.962" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#f5f5f5"/>
-    </linearGradient>
-  </defs>
-  <g id="Groupe_67" data-name="Groupe 67" transform="translate(-904.75 -1030.5)">
-    <g id="Groupe_66" data-name="Groupe 66">
-      <path id="Tracé_149" data-name="Tracé 149" d="M941,4034.5a18.5,18.5,0,0,1-18.5-18.5V3892a18.5,18.5,0,0,1,37,0v124A18.5,18.5,0,0,1,941,4034.5Z" transform="translate(24 -2843)" fill="url(#linear-gradient)"/>
-      <circle id="Ellipse_39" data-name="Ellipse 39" cx="34" cy="34" r="34" transform="translate(931 1154)" fill="#73a219"/>
-    </g>
-    <g id="Groupe_52" data-name="Groupe 52" transform="translate(-700.043 -1673.451)">
-      <g transform="matrix(1, 0, 0, 1, 1604.79, 2703.95)" filter="url(#Ellipse_33)">
-        <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="22.75" cy="22.75" r="22.75" transform="translate(37.5 180.61) rotate(-90)" fill="url(#linear-gradient-2)"/>
-      </g>
-      <circle id="Ellipse_34" data-name="Ellipse 34" cx="19.721" cy="19.721" r="19.721" transform="translate(1645.323 2881.532) rotate(-90)" fill="url(#linear-gradient-3)"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.6, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120.5 218.1" style="enable-background:new 0 0 120.5 218.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Tracé_149_00000038387595711352901680000000989014236542793867_);}
+	.st1{fill:#129A7E;}
+	.st2{fill:url(#Ellipse_33-2_00000073710570043981050410000000070796180981054598_);}
+	.st3{fill:url(#Ellipse_34_00000119111968791882466370000014389577762182232459_);}
+</style>
+<g id="Groupe_67" transform="translate(-904.75 -1030.5)">
+	<g id="Groupe_66">
+		
+			<linearGradient id="Tracé_149_00000025440518271026410300000004363508543064046767_" gradientUnits="userSpaceOnUse" x1="674.6554" y1="1558.4519" x2="674.6554" y2="1557.4519" gradientTransform="matrix(37 0 0 -161 -23997.25 251941.2656)">
+			<stop  offset="0" style="stop-color:#04DB96"/>
+			<stop  offset="0.749" style="stop-color:#129A7E"/>
+			<stop  offset="1" style="stop-color:#129A7E"/>
+		</linearGradient>
+		<path id="Tracé_149" style="fill:url(#Tracé_149_00000025440518271026410300000004363508543064046767_);" d="M965,1191.5
+			c-10.2,0-18.5-8.3-18.5-18.5v-124c0-10.2,8.3-18.5,18.5-18.5s18.5,8.3,18.5,18.5v124C983.5,1183.2,975.2,1191.5,965,1191.5z"/>
+		<circle id="Ellipse_39" class="st1" cx="965" cy="1188" r="34"/>
+	</g>
+	<g id="Groupe_52" transform="translate(-700.043 -1673.451)">
+		<g transform="matrix(1, 0, 0, 1, 1604.79, 2703.95)">
+			
+				<linearGradient id="Ellipse_33-2_00000112626598266476752020000005131461541205862054_" gradientUnits="userSpaceOnUse" x1="-242.8542" y1="524.1883" x2="-243.8252" y2="524.1763" gradientTransform="matrix(2.786072e-15 -45.5 -45.5 -2.786072e-15 23910.5371 -10914.7539)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E8E8E8"/>
+			</linearGradient>
+			
+				<circle id="Ellipse_33-2" style="fill:url(#Ellipse_33-2_00000112626598266476752020000005131461541205862054_);" cx="60.3" cy="157.9" r="22.8"/>
+		</g>
+		
+			<linearGradient id="Ellipse_34_00000096777464882656139080000006287627046002544038_" gradientUnits="userSpaceOnUse" x1="1359.9197" y1="3227.332" x2="1360.8447" y2="3227.332" gradientTransform="matrix(2.415126e-15 -39.442 -39.442 -2.415126e-15 128957.4766 56518.0273)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#F5F5F5"/>
+		</linearGradient>
+		
+			<circle id="Ellipse_34" style="fill:url(#Ellipse_34_00000096777464882656139080000006287627046002544038_);" cx="1665" cy="2861.8" r="19.7"/>
+	</g>
+</g>
 </svg>

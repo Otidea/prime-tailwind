@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.9.5, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
+<!-- Generator: Adobe Illustrator 27.9.6, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 482.9" style="enable-background:new 0 0 1920 482.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:none;}
-	.st2{opacity:0.5;fill:#FFF0A8;enable-background:new    ;}
-	.st3{opacity:0.73;fill:#FFD200;enable-background:new    ;}
-	.st4{opacity:0.55;fill:#C0C500;enable-background:new    ;}
-	.st5{opacity:0.73;fill:#E58406;enable-background:new    ;}
+	.st2{opacity:0.5;fill:#586DDD;enable-background:new    ;}
+	.st3{opacity:0.86;fill:#F5D836;enable-background:new    ;}
+	.st4{opacity:0.55;fill:#45DB96;enable-background:new    ;}
+	.st5{opacity:0.55;fill:#129A7E;enable-background:new    ;}
+	.st6{opacity:0.86;fill:#109A7E;enable-background:new    ;}
+	.st7{opacity:0.73;fill:#FF99D6;enable-background:new    ;}
 </style>
 <g>
 	<g>
@@ -24,7 +26,11 @@
 					s21.1-5.8,28.1,2.8C110.5,372.9,221.2,422,359.9,422h1053c11,0,20,9,20,20S1424,461.9,1413,461.9z"/>
 				<path id="Tracé_158" class="st4" d="M1067,481.9H341.7c-97.4,0-183.2-22.8-255.1-67.7c-9.3-5.9-12.1-18.2-6.2-27.6
 					c5.9-9.3,18.1-12.1,27.4-6.3c65.4,40.9,144.1,61.6,233.8,61.6H1067c11,0,20,9,20,20S1078,481.9,1067,481.9L1067,481.9z"/>
-				<path id="Tracé_157" class="st5" d="M248.5,429C103,387.3,1.5,302.1-53.2,175.7c-4.4-10.1,0.3-21.9,10.4-26.3
+				<path class="st5" d="M85.3,381.3c-1.9,1.4-3.6,3.2-4.9,5.3c-5.9,9.4-3.1,21.7,6.2,27.6c71.9,44.9,157.7,67.7,255.1,67.7H1067
+					c11,0,20-9,20-20v0H360C252.9,461.9,160.9,434.8,85.3,381.3z"/>
+				<path class="st6" d="M1067,441.9H341.6c-89.7,0-168.4-20.7-233.8-61.6c-7.2-4.5-16.1-3.8-22.5,1
+					c75.6,53.6,167.6,80.6,274.7,80.6h727C1087,450.9,1078,441.9,1067,441.9z"/>
+				<path id="Tracé_157" class="st7" d="M248.5,429C103,387.3,1.5,302.1-53.2,175.7c-4.4-10.1,0.3-21.9,10.4-26.3
 					c10.1-4.4,21.9,0.3,26.3,10.4C33.2,274.7,126,352.3,259.4,390.6c10.6,3,16.8,14.1,13.7,24.7S259.1,432.1,248.5,429z"/>
 			</g>
 		</g>
