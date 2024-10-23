@@ -517,3 +517,9 @@ h1{
         transform: rotate(360deg);
     }
 }
+
+.blocBoutonSlider h2{
+    top: -15px;
+    position: relative;
+}
+

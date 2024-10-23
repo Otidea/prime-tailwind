@@ -1,18 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.9.6, SVG Export Plug-In . SVG Version: 9.03 Build 54986)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 126 126" style="enable-background:new 0 0 126 126;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#005078;}
-</style>
-<g id="btn_fleche" transform="translate(5138.5 -497.5) rotate(90)">
-	<g transform="matrix(0, -1, 1, 0, 497.5, 5138.5)">
-		<circle id="bg_btn-2" class="st0" cx="63" cy="63" r="43.5"/>
-	</g>
-	<path id="flèche" class="st1" d="M545.4,5091.7c-1.2,0-2.2-1-2.2-2.2c0-0.6,0.2-1.1,0.6-1.5l25.4-25.4h-23.9c-1.2,0-2.2-1-2.2-2.2
-		s1-2.2,2.2-2.2h29.1c0,0,0,0,0,0l0,0c0.6,0,1.1,0.2,1.5,0.6l0,0l0,0l0,0l0,0l0,0l0,0l0,0c0.2,0.2,0.4,0.4,0.5,0.7
-		c0.1,0.3,0.2,0.5,0.2,0.8v29.2c0,1.2-0.9,2.2-2.1,2.2c-1.2,0-2.2-0.9-2.2-2.1c0,0,0-0.1,0-0.1v-23.8l-25.4,25.4
-		C546.5,5091.5,546,5091.7,545.4,5091.7"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 126 126">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .st2 {
+        fill: #005078;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="10.5" y="10.5" width="105" height="105" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2.8"/>
+      <feFlood flood-color="#b7b7b7" flood-opacity=".8"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn_fleche" class="st1">
+    <circle id="bg_btn-2" class="st0" cx="63" cy="63" r="43.5"/>
+    <path id="flèche" class="st2" d="M46.8,47.9c0-1.2,1-2.2,2.2-2.2s1.1.2,1.5.6l25.4,25.4v-23.9c0-1.2,1-2.2,2.2-2.2s2.2,1,2.2,2.2v29.1h0c0,.6-.2,1.1-.6,1.5h0c-.2.2-.4.4-.7.5-.3,0-.5.2-.8.2h-29.2c-1.2,0-2.2-.9-2.2-2.1s.9-2.2,2.1-2.2h23.9l-25.4-25.4c-.4-.4-.6-.9-.6-1.5"/>
+  </g>
 </svg>
